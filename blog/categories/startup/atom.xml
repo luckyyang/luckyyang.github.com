@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: startup | 编程向左，人生向右]]></title>
+  <link href="http://luckyyang.github.com/blog/categories/startup/atom.xml" rel="self"/>
+  <link href="http://luckyyang.github.com/"/>
+  <updated>2012-12-03T23:16:13+08:00</updated>
+  <id>http://luckyyang.github.com/</id>
+  <author>
+    <name><![CDATA[Jiyang Liu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[我们要成为一个什么样的公司]]></title>
+    <link href="http://luckyyang.github.com/blog/2012/12/03/wo-men-yao-cheng-wei-yi-ge-shi-yao-yang-de-gong-si/"/>
+    <updated>2012-12-03T21:02:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2012/12/03/wo-men-yao-cheng-wei-yi-ge-shi-yao-yang-de-gong-si</id>
+    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/who_we_are.jpg" alt="who_is_who" width=60% height=60% ></p>
+
+<h3>我们是谁</h3>
+
+
+<p>
+我们是一群乐于分享，有些理想主义的人。我们的产品是一个视频网站，视频内容专注于web开发技术。我们把这个网站定位为教育类网站，因为我们有很多人都从事过教育相关的工作，而且最重要的是，我们热爱教育，我们希望通过我们的努力，给希望从事web开发的人提供一种高效率的学习方式。
+</p>
+
+
+<!-- more -->
+
+
+
+
+<h3>关于管理</h3>
+
+
+<p>
+我们不会有很多的规章制度，我们倡导松散的管理，甚至无管理。因为我们相信发挥人的主观能动性才会创造最大的价值，特别是对于需要创造力的事情而言更是如此。因此，你不需要上下班打卡，不需要每天一定要坐在办公室里规定的时间，甚至如果你觉得在家里工作效率更高，你可以在家里工作（我相信你大多数时候会愿意与这些有趣的人一起工作的，但不强迫）。
+</p>
+
+
+<p>
+你可能会问，如何保证每个人都会努力工作呢？我们的回答是：因为我们相信。衡量一个人的价值不是用时间，而是她的作品。我们希望团队中的每个人都有一种自然的工作状态，这种自然就是，要么不要工作，要么保持效率最大化。
+</p>
+
+
+
+
+<h3>关于成员</h3>
+
+
+<p>
+我们每个人都有多种角色，可以是程序员，也参与设计，偶尔也是客服和项目经理。因此，我们觉得团队中的每个人都应该有下面的特质：
+<ul>
+<li>无论你是否看清生活的所有真相，你都要热爱生活</li>
+<li>苛刻的诚信观</li>
+<li>强烈的个人主义意识</li>
+</ul>
+还有一些我们也很喜欢的点：
+单纯，不同，喜欢分享，有点偏执狂，完美主义。
+</p>
+
+
+
+
+<h3>FAQ</h3>
+
+
+<p>
+<em>Q:</em>我们为什么选择视频网站的这种方式？<br />
+<em>A:</em>因为我们觉得这会给学习者带来最好的体验。
+<ul>
+<li>我们希望每个人都能自由地学习——自由地选择适合自己的课程以及自由地选择时间去学习。</li>
+<li>学习成本极大的降低。我们的收费模式不是按照单个或者单套视频来收费，而是采用包月模式，价格是现场教学的1/100，而且更重要的是，我们提供了一种自由的学习方式。</li>
+</ul>
+</p>
+
+]]></content>
+  </entry>
+  
+</feed>
