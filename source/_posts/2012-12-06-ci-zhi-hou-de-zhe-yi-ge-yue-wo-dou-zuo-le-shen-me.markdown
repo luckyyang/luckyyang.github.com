@@ -6,12 +6,13 @@ comments: true
 categories: grocery
 ---
 
-<img src="/images/sun_down.jpg" alt="who_is_who" width=60% height=60% >
+<img src="/images/sun_down.jpg" alt="who_is_who" width="500" >
 
 1.
 全心学习[Rails](http://guides.rubyonrails.org/)，参照官方guides做了一遍blog教程，自己大概写了一遍。
 2.
 坚持游泳，每次办小时，每周约4次，[自由泳](http://v.youku.com/v_show/id_XMzA0Njk0MjY0.html)有很大进步。
+<!-- more -->
 3.
 看了很好的一个电影[《心灵捕手》](http://movie.douban.com/subject/1292656/)和不错的[影评](http://movie.douban.com/review/1929689/)。
 4. 

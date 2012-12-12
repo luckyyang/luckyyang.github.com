@@ -6,7 +6,7 @@ comments: true
 categories: startup
 ---
 
-<img src="/images/who_we_are.jpg" alt="who_is_who" width=60% height=60% >
+<img src="/images/who_we_are.jpg" alt="who_is_who" width="500" >
 
 <h3>我们是谁</h3>
 <p>
