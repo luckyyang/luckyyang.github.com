@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: grocery - 编程向左，人生向右</title>
+  <title>UBUNTU 12.04下解决打开txt文件乱码问题 - 编程向左，人生向右</title>
   <meta name="author" content="Jiyang Liu">
 
   
-  <meta name="description" content="Category: grocery">
+  <meta name="description" content="前几天因为一点事不得不用下windows，然后就在里面记了点东西，之后拷贝到ubuntu后发现乱码，开始也懒得去管它，可放在那始终是个问题，而且我最近正好要用到文档里的内容，就在网上搜索了下，基本的解决方法是这样的： 终端输入gconf-editor调出gconf-edit(前面不需要加Sudo &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://luckyyang.github.comblog/categories/grocery/">
+  <link rel="canonical" href="http://luckyyang.github.com/blog/2013/01/19/how-to-open-txt-file-in-ubuntu/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -76,50 +76,132 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Grocery</h1>
+    
+      <h1 class="entry-title">UBUNTU 12.04下解决打开txt文件乱码问题</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-19T21:38:00+08:00" pubdate data-updated="true">Jan 19<span>th</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p><img src="/images/ubuntu_rain_in_baires.png" alt="ubuntu_rain_in_baires" width="500" ></p>
 
-  
-  <h2>2012</h2>
+<p>前几天因为一点事不得不用下windows，然后就在里面记了点东西，之后拷贝到ubuntu后发现乱码，开始也懒得去管它，可放在那始终是个问题，而且我最近正好要用到文档里的内容，就在网上搜索了下，基本的解决方法是这样的：</p>
 
-<article>
-  
-<h1><a href="/blog/2012/12/12/ni-de-she-ji-you-mei-you-zhe-xie-wen-ti/">如果你不是专业设计人员</a></h1>
-<time datetime="2012-12-12T11:29:00+08:00" pubdate><span class='month'>Dec</span> <span class='day'>12</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/grocery/'>grocery</a></span>
-</footer>
+<!-- more -->
 
 
-</article>
+<blockquote><ol>
+<li>终端输入gconf-editor调出gconf-edit(前面不需要加Sudo)</li>
+<li>依次点开 apps->gedit-2->preferences－＞encodings 中的auto-detected</li>
+<li>在双击弹出对话框中加入GB18030，GBK，GB2312,然后将GB18030,GB2312移到最上</li>
+</ol>
+</blockquote>
+
+<p>但是这个方法在我这不行，之前我用vim切换编码也试过，行不通。</p>
+
+<p>怎么办呢？</p>
+
+<p>试试用浏览器吧，最后解决了，我把步骤说下吧，如果你正好有和我一样的问题并且搜到了这里，你也可以试一下：</p>
+
+<ol>
+<li>将文件的后缀.txt改为.html，这样浏览器就可以按html来读了。比如你的文件名是&#8221;解决个编码问题我容易么.txt&#8221;，改为&#8221;解决个编码问题我容易么.html&#8221;。</li>
+<li>vim或者别的编辑器打开并编辑文件，在文件的最顶端加入：
+
+<blockquote><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;meta charset="GB18030"&gt;&lt;/head&gt;
+  &lt;body&gt;
+    &lt;pre&gt;
+</code></pre></blockquote></li>
+<li>在文件的最末尾加入：
+
+<blockquote><pre><code>    &lt;/pre&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre></blockquote></li>
+<li>用浏览器打开文件，应该就可以正常显示中文了。</li>
+<li>新建一个文件，把浏览器中的中文拷贝进去。</li>
+</ol>
 
 
-
-<article>
-  
-<h1><a href="/blog/2012/12/06/ci-zhi-hou-de-zhe-yi-ge-yue-wo-dou-zuo-le-shen-me/">辞职后的这一个月我都做了什么</a></h1>
-<time datetime="2012-12-06T08:47:00+08:00" pubdate><span class='month'>Dec</span> <span class='day'>06</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/grocery/'>grocery</a></span>
-</footer>
-
-
-</article>
-
+<p>嘿，解决了。</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Jiyang Liu</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-19T21:38:00+08:00" pubdate data-updated="true">Jan 19<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/tips/'>tips</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://luckyyang.github.com/blog/2013/01/19/how-to-open-txt-file-in-ubuntu/" data-via="" data-counturl="http://luckyyang.github.com/blog/2013/01/19/how-to-open-txt-file-in-ubuntu/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/12/24/zai-gui-zhou-gu-zhai/" title="Previous Post: 在贵州古寨">&laquo; 在贵州古寨</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -175,7 +257,10 @@
       var disqus_shortname = 'luckyyang';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://luckyyang.github.com/blog/2013/01/19/how-to-open-txt-file-in-ubuntu/';
+        var disqus_url = 'http://luckyyang.github.com/blog/2013/01/19/how-to-open-txt-file-in-ubuntu/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
