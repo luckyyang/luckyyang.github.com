@@ -16,4 +16,7 @@ github的工作方式，我对比了一下，他们宣称的三点：工作地�
 
 而做到这些，也和工具的使用有很大关系，即github的员工也是用github来构建github的。
 
+- issue
+- pull request
+- wiki
 
