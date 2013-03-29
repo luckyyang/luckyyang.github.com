@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>fork you! github - 编程向左，人生向右</title>
+  <meta name="author" content="Jiyang Liu">
+
+  
+  <meta name="description" content="3月23号，我和peter被邀请iDev做关于github的讲座，下面是我演讲的内容。 幻灯片在这里： <script async class="speakerdeck-embed"
+data-id="c4bc0ed075aa0130a2171231392f4138" data-ratio="1. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://luckyyang.github.com/blog/2013/03/23/fork-you-github/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="编程向左，人生向右" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36432186-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">编程向左，人生向右</a></h1>
+  
+    <h2>去发现，去追求</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:luckyyang.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Fork You! Github</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-23T22:52:00+08:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>3月23号，我和peter被邀请<a href="http://idev.51qiangzuo.com/">iDev</a>做关于github的讲座，下面是我演讲的内容。</p>
+
+<blockquote><h3>幻灯片在这里：</h3></blockquote>
+
+<script async class="speakerdeck-embed"
+data-id="c4bc0ed075aa0130a2171231392f4138" data-ratio="1.33507170795306"
+src="//speakerdeck.com/assets/embed.js"></script>
+
+
+<p>大家好，通常周六下午的这个时间，我正在操场，和一群不认识的人打篮球，然后输得筋疲力尽回家。</p>
+
+<p>我今天演讲的题目是“fork you，github”，fork在github中是指copy一份别人的代码到自己的代码库中。而我演讲标题中的这个fork主要是想fork github文化上的一些东西，谈一谈github的文化和工作方式，看一看哪些东西我们可以吸收和借鉴。这里我想用2个字来阐述：
+<strong>异步</strong> ，这两个字也是我演讲的核心。这个演讲适合所有对github感兴趣的人：</p>
+
+<!-- more -->
+
+
+<ul>
+<li>如果你还不是很了解github，你或许想知道现在为什么人们都在谈github；</li>
+<li>如果你正在运营一个公司或者领导一个团队，你或许想知道营造一个什么样的文化，才能吸引到更多的人才，创造出伟大的产品；</li>
+<li>还有如果你对github的文化和工作方式已经有了一定了了解，你或许还想知道“没有经理，没有会议，没有产品开发期限”是如何玩的转的。</li>
+</ul>
+
+
+<p>我叫刘吉洋，我是一个很乐观的人，我最喜欢打篮球。luckyyang是我github上的用户名，为了让100米外的人能看清，我单独做了一张幻灯片，你可以follow我，或者关注我的项目。我和peter一起合作好奇猫这个项目的过程，可以说是屌丝逆袭的过程。当时我刚辞职不久，之前在一个大公司工作，找不到未来的方向。辞职后，我打算学习rails，从事web开发，以后做个自由职业者。有一天，peter来我家玩，聊着聊着，他突然对我说：要不你就加入我这个项目，我们一起创业。我当时认真思考了0.2秒，然后故作镇定的说：没问题，我可以参与这个项目。其实我的内心是这样的：（伸手握拳状）yes！我知道这是一个愚公移山的项目，很可能失败，但我可以很清楚的看到，这段经历会使我终身受益。</p>
+
+<h3>举手：</h3>
+
+<p>在场的各位有多少用过github的？有多少不知道github的？有多少用过git的？有多少觉得自己这两个东西用的都不是太熟练的（我也举手，举双手）？现在在场的有团队在用github做协作开发的么？</p>
+
+<p>好，谈异步，我会从3个方面来说：工作方式，工具和人。</p>
+
+<h2>工作方式</h2>
+
+<p>github工作方式的异步，有三点：工作地点，工作时间和工作强度。</p>
+
+<ul>
+<li>工作地点可以随意选择，github有2/3的员工是远程工作的。在家里，或者在世界的各地。</li>
+<li>工作时间自由支配，可以早上七点，也可以下午一点开始工作，自由支配，只要你效率高。</li>
+<li>工作强度，根据自己的情况安排，只要你能写出好代码。</li>
+</ul>
+
+
+<p>关于工作方式，可以用这两点来解释：</p>
+
+<h3>Hours Are Bullshit</h3>
+
+<p>多长时间？我们在大学的时候就开始喜欢讨论时间长短的问题了，或者简单说长短的问题。现在到了工作上，我们仍然在讨论这个多长时间的问题，虽然讨论的焦点不同了，但是我的结论是一样的：这种讨论没有意义。</p>
+
+<p>对于工厂来说，生产线运行的越久，工人工作的时间越长，那么生产的产品就越多，创造的价值也就更大。但是编程是一件创造性的劳动，需要集中精力，有个好的状态，才能写出高质量的代码。我听到过很多次有人说“我这几周每天都工作到凌晨1点”或者“我每天只睡5个小时”一类的话，其实这些话说明不了什么，说明不了你写了多好的代码，说明不了你的效率有多高，但基本可以说明的是，你的身体需要好好休息一下了。</p>
+
+<p>他们说这些话的目的可能只是随口说说，没有炫耀的成分。但是这个话题还是很值得去聊一聊的，就拿我自己来说，我的身体素质是什么样的呢：</p>
+
+<ul>
+<li>我大学四年一直都是我们班体育委员，每学期的体育成绩都是优秀，接近满分；</li>
+<li>大学时参加运动会也都会有名次；</li>
+<li>工作后每周一般也要锻炼至少2次；</li>
+</ul>
+
+
+<p>所以我现在的习惯是，如果一周不让我玩两次的话，我感觉自己浑身不自在。</p>
+
+<p>你们觉得我的身体素质应该还可以吧，但是我对每周工作多少小时一直都是很迷惑的，因为经常听到或者看到一些报道“我每周工作100小时，连续3个月，工作效率总是很高”或者“我是如何做到每天只睡4个小时的”。</p>
+
+<p>而我从来，从来都没有做到过连续工作15小时这一类的事情，也做不到，所以经常觉得很失败。但现在我想对这些报导说，都是胡扯。就算他们能一个月都保持那样的效率，我绝对不相信他们可以一直持续的保持下去。</p>
+
+<p>我有过在公司工作3年的经验，我只能说我总体上效率最好的时候可能只有每天6个小时，或者更少，每天上午9点到12点，我可以工作一阵，中午我必须要睡上半个小时，不然整个下午就好像梦游一样。午睡之后，下午2点到5点继续工作，然后剩下的半个小时，我会想健身的东西都带齐了没？上次自由泳游的不错的那个姑娘这次还能不能看到呢？而且从这一点上来说，我觉得也是KPI（绩效考核）对我有用的唯一一点，就是我不用因为工作时间少而感觉良心上过不去，我唯一要承担的就是我每个月的奖金少拿点。</p>
+
+<p>我一般如果熬夜一次之后，都需要2天的时间才感觉身体完全恢复到很健康的状态。而且熬夜的状态，就感觉随着时间的流逝，自己的精神一点点被掏空了的感觉，根本谈不上什么创造性可言。</p>
+
+<p>让我们再回味一下“每周工作100个小时。。。”这种话，这是一种典型的“生产线”思维方式，就是把工作任务的完成程度简单的用时间来衡量，工作的时间长，我做的工作就多，工作的时间长，我就超前于你，我才更有可能成功。</p>
+
+<p>所以我对这种情况得出了2个结论：</p>
+
+<ul>
+<li>要么，他们从事的工作是“生产线”式的工作；</li>
+<li>要么，他们就是在扯蛋。</li>
+</ul>
+
+
+<p>还有一点，对于编程这种创造性的劳动，人们关心工作时间的原因，是因为它是绩效考核的一部分，经理们喜欢用时间来作为考核标准的原因是，对于他们来说，用时间作为丈量标准比较简单，看起来也一视同仁。而用“代码写的怎么样，工作效率如何”这样的标准来衡量的话，太难了。所以当一个公司对时间关心更多的时候，他的员工也会这样。</p>
+
+<p>其实，对于工作时间的探讨不是没有意义，但是其实我们关心的不是每周我们到底要工作多少时间，而关心的是如何实现工作和生活的平衡，在这个平衡的基础上，创造更多的价值。而对于如何实现这个平衡，没有一个万能的公式，你只有自己去多次尝试，给自己反馈，然后找到一个平衡的状态。最后，当你达到这个平衡状态之后，我想你更愿意和别人分享你做了什么让自己兴奋的项目，而不是说，我又搞了个通宵。</p>
+
+<h3>Real Artists Ship</h3>
+
+<p>真正的高手都是以是否能完成好的作品为目标进行创作的。写代码也是和艺术创作类似的活动，你无法强迫自己的灵感一定会在早9晚5这段时间出现。github让你自己决定适合自己的工作方式，他们有的早上7点就到公司工作，有的下午3点才到公司，还有的就坐自己家里工作，因为他们觉得在家里工作更能进入状态。</p>
+
+<p>最终他们的这种灵活的工作方式，发现员工投入到工作中的时间更长了，因为你营造的这种氛围，让员工感觉很兴奋，也更愿意投入到创造当中。而创造的过程，也是非常高效的。</p>
+
+<p>这点在我身上就是一个例子。我现在的工作时间，当然我是指效率高的时间，效率不高我是不会工作的，由原来的&lt;=6小时变成了现在的>=8小时，而且我还有时间学习吉他。</p>
+
+<p>所以我也留给大家一个问题思考：就是现在的每周40个小时工作制是谁提出的？在什么社会环境下提出的？是否合理？</p>
+
+<h2>工具</h2>
+
+<p>工具确保了异步的工作流程，主要有三个工具：pull request，issues和wiki。</p>
+
+<h3>Pull Request</h3>
+
+<p>pull
+request（PR）相当于一个代码审核（review）系统。可能大多数人都是在参与开源项目时使用这个功能：fork项目（也就是把项目做了一个拷贝）->修改代码->发送PR给项目的维护者（maintainer）。这种流程是在不同的repo下面进行的，repo你可以简单理解为整个项目的代码，因为你fork之后，你其实是相当于把这个项目做了一个copy到你的代码库中，而对于团队内部开发来说，其实完全可以省略fork这个过程，直接在同一个repo下面开发，下面我就大概讲一下我们是如何使用PR的（我们项目repo的名字叫onestep）。</p>
+
+<ol>
+<li>首先代码的维护者peter会授予我写权限。</li>
+<li>然后我在本地克隆（clone）这个repo，也就是把代码下载到本地。</li>
+<li><p>我新建分支（branch），比如叫please_merge_me，然后修改代码，测试没有问题后把代码push到github上的please_merge_me分支。</p></li>
+<li>最后发送PR给主（master）分支。</li>
+<li><p>与代码有关的人在他有空时就会参与讨论，当：</p>
+
+<ul>
+<li>他受所修改代码影响时；</li>
+<li>某个人对这次修改感兴趣时；</li>
+</ul>
+</li>
+<li>如果代码修改的没问题的话就可以直接将代码合并（merge）到主（master）分支上。</li>
+<li>clean</li>
+</ol>
+
+
+<p>PR和之前的把人叫过来做代码审核的方式相比，就好像是钻木取火和用打火机的区别。</p>
+
+<p>有多少人不喜欢开会的？举手。不举手的都是领导。</p>
+
+<ul>
+<li>省时
+通过PR，就不用把别人叫过来做代码审核了，你把他叫过来之后，你还要在一边花时间等着他看你的那些修改。</li>
+</ul>
+
+
+<p>也省去了开会的麻烦，我们都有过不情愿过去开会的经历吧，而可能当时你的创造力正井喷。在PR上，不需要通过开会解决问题，我们可以就这个PR进行讨论，甚至可以就某一行或某一块代码进行讨论，而且讨论的内容都是大家经过思考才发布上去的，而不是经常毫无准备的就过去开会。</p>
+
+<ul>
+<li>省力
+开会很耗费体力和脑力的过程。</li>
+</ul>
+
+
+<h3>Issues</h3>
+
+<p>issues相当于一个简化版的bug追踪系统+facebook，她虽然比bug追踪系统的功能少，但更友好和强大。</p>
+
+<p>她让交流变的更加简单。我们可以在里面讨论各种问题。可以是bug，可以是新的功能，也可以是一些分享，以及任何值得讨论和留下记录的东西。</p>
+
+<ul>
+<li>你可以把任务分配给某个人，这样就很清楚地知道谁正在做这个事。</li>
+<li>你可以创建不同的标签，给某个issue添加标签进行分类管理。这样在你点某一个标签的话，属于这个标签的所有issue都会显示出来。</li>
+<li>你还可以创建milestone，将多个issue加入到这个milestone下面，每关闭一个issue，milestone的进展就更进一步，这样大家会很清楚项目的进展情况，并且都会朝着这个目标努力。</li>
+</ul>
+
+
+<p>另外呢，当你引用其它issue的时候也非常方便，比如说我想引用issue 117，我只需要写“#117”就可以了。</p>
+
+<p>issues这个功能呢，用文字而不是用语言交流。这里文字比语言有很大的优势：</p>
+
+<ul>
+<li>有价值：语言交流一般不会有时间把逻辑组织的很好，很多随机的话是没什么价值的。而用文字，你有时间思考，就可以组织起很好的逻辑。</li>
+<li>有记录：大家的交流内容都在网上，所以就算你出去玩一会，回来也能跟上讨论的节奏，不会受工作地点的限制。而且之后你想回顾讨论的过程也很方便，往往有时候讨论的过程更有启发，issues还提供了各种查找的方式，可以通过状态（open/close），标签（tag），分配任务的人进行查找，还支持全文搜索。他比会议记录也要强大的多了，你在会议上记录的都是你当时认为重要的东西，而且经常记录的只是会议的一少部分，而你1个月之后，想回顾的话，你很可能发现，当时的很多有价值的东西自己没有记录。</li>
+<li>友好：你在issue上面讨论问题，可以随意@别人而不用担心打扰别人的工作，别人看到了，会在他有空的时候回复你的。但是注意，不要@错了。（peter的例子。。。）</li>
+</ul>
+
+
+<h3>Wiki</h3>
+
+<p>大家达成共识的东西就可以形成wiki。项目中的每个人都可以新建页面，编辑页面，同时还可以查看编辑的历史。我们的wiki上主要分了2类，一类是硬性纲领性的，一类是技巧总结性的。对于硬性纲领性的东西，就是大家要严格遵守的东西，比如。。。另一类技巧总结性的，主要是非硬性规定的，一般是技巧和经验的总结，比如我们的网站会让一些工程师录制一些教学类的视频，那我们就会有一个“视频课程制作须知”的wiki页面。</p>
+
+<p>我们一般通过2种方式进行编辑：</p>
+
+<ul>
+<li>在页面上直接编辑；</li>
+<li>本地编辑。因为wiki页面本身就是一个git的repo，所以可以用git来管理。可以git clone下来，在本地用文本编辑器进行编辑，支持很多种格式，我们一般用markdown格式进行编辑。</li>
+</ul>
+
+
+<p>wiki就形成了知识共享，知识传递上的一种异步。比如，我们团队有个新成员加入，我们的项目是开源的，欢迎任何人参与进来，他对贡献代码的流程不是太清楚，那我们就让他去看wiki中的“pull request的流程”那个wiki页面，有问题，可以到issue上提出，然后一起讨论。这样就不用每次有新成员加入，都要给他讲一遍这个流程了，一是可以节省很多的时间，二是它是异步的。</p>
+
+<p>还有这个wiki系统是开源的，是一个叫gollum的项目，gollum这个词是指环王里的那个小怪物，得到魔戒后嗓子里发出咕噜的声音。github的wiki就是用gollum构建的。如果你想构建自己项目的wiki系统，可以使用gollum，项目的地址：https://github.com/gollum/gollum。</p>
+
+<h2>人</h2>
+
+<p>这里是github的一些数据，github每天：</p>
+
+<ul>
+<li>10k 人加入github；</li>
+<li>140GB新数据被上传；</li>
+<li>125k 个软件库被更新；</li>
+<li>10k 人push他们的第一个项目；</li>
+<li>25k 个软件库被创建；</li>
+<li>7k pull requests 被发送；
+还有另外一些数据。。。</li>
+</ul>
+
+
+<h3>github是如何招人的</h3>
+
+<p>github现在有153名员工，分布在世界的各个地方。要想让异步玩的转，不只是有好的流程，好的工具，你还需要合适的人。我的理解，合适的人就是你认为重要的东西，对方也认为重要，那就是合适。比如说，github认为公司里不应改有经理这种单纯的管理角色，如果你也认同的话，那你们各自对双方都会有个好印象。对于我们这个项目，如果你也觉得是和我们一类的人，我们热烈欢迎你来找我们聊聊。</p>
+
+<p>博客呢，可以反映你的人品，你是如何看世界的，你对很多问题的观点是什么，因此博客是一种展现自己的方式，宣传自己的方式，可以让别人很容易的了解你。当然展现自己的方式，不只限于博客，你可以参加一些活动，在会议上做演讲，组织一些活动。但你可以用博客记录这些经历和感受，并把这些宝贵的财富分享给所有人。</p>
+
+<p>你在github的贡献都可以用数据来说明。比如在我的个人主页，可以看到我参与项目的情况，我贡献了哪些项目，能看到我最受欢迎的项目，现在已经有一个人加star了，而且我可以很确定的告诉你们，这个人不是peter，也不是我妈。</p>
+
+<p>我一共有多少个repo。在往下呢，可以看到我贡献的总数，125个，这个数量等于commit+PR+报告的issue。还可以看到我的连续都有贡献的天数是5天，当前连续贡献天数是2天。在往下，默认显示的是我这一周的具体贡献，我这一周push了3个commit，提交了4次pull request，报告了3个issue。如果别人对我的哪个贡献感兴趣的话，点进去这个链接，就可以看到更具体的信息，比如说了些什么，修改了哪些代码。这对于招聘方来说，真是方便极了，我的能力一目了然。</p>
+
+<h3>Optimizing For Happiness:</h3>
+
+<p>这是github的创始人tom说的一句话： I&#8217;m a hacker; I&#8217;m happy when I&#8217;m building things of value, not when I&#8217;m writing a business plan filled with make believe
+numbers.</p>
+
+<p>gihtub不为钱工作，而为快乐工作的好处是：</p>
+
+<ul>
+<li>不用做很多讨好投资人的事情，比如说做财务支出计划，做项目计划。</li>
+<li>不会使自己处于不利的地位。当你为钱工作，你会花很多时间和投资人接触，说服他们给你投资，而你越是着急，就越让自己处于不利的地位。最后你会发现，你得到的可能只是自己的笑容比平常更多了。而为快乐工作，当github成功的时候，投资人自动找上门来，主动要求投资。</li>
+<li>可以不用投资人的钱。现在的创业成本越来越低，以前主要考虑的硬件的成本现在已经基本可以忽略不计了，github当时只投资了几千美金用来支付一些法律服务上的费用。</li>
+</ul>
+
+
+<p>因此，在github，不用开会来解决问题，没有工作时间和工作天数的规定，不会限制你休假的天数和病假的天数。也不会有经理这种单纯的管理者或者组织机构图这类东西。没有着装规定，没有报销费用审计和HR。</p>
+
+<p>github做决定是基于争论后而达成的共识，而不是一定由某个特定的人说的算。他们的董事会开在酒吧而不是一个门关的很严的会议室。</p>
+
+<p>他们做这些，是因为，他们为快乐工作。</p>
+
+<h3>Product Is The By-Product</h3>
+
+<p>最后呢，产品只是公司的副产品。有了好的文化，吸引到一流的人才。在这种优良的土壤和环境的培育下，才能“生长”出好的产品。</p>
+
+<p>最后我希望大家能在github上创建或者参与一些自己感兴趣的项目，发挥你的创造力，感受异步工作带来的快乐，并可以带给世界一些美好的东西。然后你可能发现，这些项目会带给你一种自豪感，一种分享的欲望，你会感觉他比讨论哪个名人每天在微薄上说什么了更有吸引力，比读一些不疼不痒的新闻更有收获，也比关注一些愤青的言论更有教育意义。甚至比在周末的下午听的演讲更有趣。</p>
+
+<p>谢谢。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jiyang Liu</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-23T22:52:00+08:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/talks/'>talks</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://luckyyang.github.com/blog/2013/03/23/fork-you-github/" data-via="" data-counturl="http://luckyyang.github.com/blog/2013/03/23/fork-you-github/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/01/19/it-is-not-your-fault/" title="Previous Post: 那不是你的错">&laquo; 那不是你的错</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/23/fork-you-github/">fork you! github</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/19/it-is-not-your-fault/">那不是你的错</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/19/you-need-more-personal-character/">你需要多一点个性</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/19/how-to-open-txt-file-in-ubuntu/">UBUNTU 12.04下解决打开txt文件乱码问题</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/24/zai-gui-zhou-gu-zhai/">在贵州古寨</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Jiyang Liu -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'luckyyang';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://luckyyang.github.com/blog/2013/03/23/fork-you-github/';
+        var disqus_url = 'http://luckyyang.github.com/blog/2013/03/23/fork-you-github/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
