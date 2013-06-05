@@ -3,7 +3,7 @@ layout: post
 title: "Fork You! Github"
 date: 2013-03-23 22:52
 comments: true
-categories:talks
+categories: talks
 ---
 
 3月23号，我和peter被邀请[iDev](http://idev.51qiangzuo.com/)做关于github的讲座，下面是我演讲的内容。
