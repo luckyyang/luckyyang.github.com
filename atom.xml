@@ -4,7 +4,7 @@
   <title><![CDATA[编程向左，人生向右]]></title>
   <link href="http://luckyyang.github.com/atom.xml" rel="self"/>
   <link href="http://luckyyang.github.com/"/>
-  <updated>2013-06-20T23:44:27+08:00</updated>
+  <updated>2013-07-17T21:15:26+08:00</updated>
   <id>http://luckyyang.github.com/</id>
   <author>
     <name><![CDATA[Jiyang Liu]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[100件让我开心的事 #7]]></title>
+    <link href="http://luckyyang.github.com/blog/2013/07/17/100-happy-things-number-7/"/>
+    <updated>2013-07-17T11:23:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2013/07/17/100-happy-things-number-7</id>
+    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/happy_7.jpg" title="门口的花墙" alt="花的墙" width="500"></p>
+
+<p>这一周一直在练习前端的实际经验，并且只看网页抄了一个<a href="http://luckyyang.github.io/css-toys/vplayer/index.html">网站</a>，其实只有三个页面，主要是css的一些东西，js的东西我都是在网上搜索人家现成的，因为我还一点都不会js，然后改了一点css的东西，最后就完成了，除了页脚的链接有点小bug之外（js的东西，我还搞不定），总体还算完成了。从7月9号到今天，一共做了9天，每天5-7个小时，反正我觉得还算凑合吧。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[100件让我开心的事 #6]]></title>
+    <link href="http://luckyyang.github.com/blog/2013/07/17/100-happy-things-number-6/"/>
+    <updated>2013-07-17T09:55:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2013/07/17/100-happy-things-number-6</id>
+    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/happy_6.jpg" title="还是水里凉快" alt="畅游大海" width="500"></p>
+
+<p>有一段时间没有更新了，因为最近说的比较多，想的相对少了点。</p>
+
+<p>这张照片是7月3号拍的，我也下水游了会，海水的浮力要大些，只是海浪扑过来，喝了几口海水，味道还是挺咸的。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[100件让我开心的事 #5]]></title>
