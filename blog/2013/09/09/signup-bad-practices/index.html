@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>如果注册也能很快乐 - 编程向左，人生向右</title>
+  <meta name="author" content="Jiyang Liu">
+
+  
+  <meta name="description" content="图片来自dribbble 前几天因为我们网站的需要，我打算试用一个网站的服务。而首先，我得注册。面对这串长长的表格，我犹豫了好一阵，想是否还要用这个服务。在挣扎了好几分钟，注册页面被打开和关闭了3次之后，我还是决定注册了：反正只需要注册一次，如果他们的服务不好，我再恨他们也不迟。 抱歉， &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://luckyyang.github.com/blog/2013/09/09/signup-bad-practices/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="编程向左，人生向右" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36432186-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">编程向左，人生向右</a></h1>
+  
+    <h2>去发现，去追求</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:luckyyang.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">如果注册也能很快乐</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-09T10:05:00+08:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><img src="/images/signup_good.png" title="注册页面" alt="注册页面" width="500"></p>
+
+<p>图片来自<a href="http://dribbble.com/shots/1219723-Where-your-journey-begins-v2">dribbble</a></p>
+
+<p>前几天因为我们网站的需要，我打算试用一个网站的服务。而首先，我得注册。面对这串长长的表格，我犹豫了好一阵，想是否还要用这个服务。在挣扎了好几分钟，注册页面被打开和关闭了3次之后，我还是决定注册了：反正只需要注册一次，如果他们的服务不好，我再恨他们也不迟。</p>
+
+<!-- more -->
+
+
+<p>抱歉，贴这么长的图，让你的鼠标滚轮多滚了1.8圈。
+<img src="/images/signup_long.png" title="注册表格很长" alt="注册表格很长" width="500"></p>
+
+<p>一般的网站注册都包含至少3项（如果有少于三项的请告诉我）：</p>
+
+<ul>
+<li>用户名</li>
+<li>邮箱</li>
+<li>密码</li>
+</ul>
+
+
+<p>有的网站访问量很大（？）的话，还会有我经常会填错或者看不清的验证码。</p>
+
+<p>我不懂什么用户体验设计一类的东西，我只知道一个产品，你给人家用的时候，是不是让人家感觉舒服。就好像我买鞋一样，我不关心你用的什么高科技材料，我只需要知道我穿着是否舒服，如果不舒服，谈什么高科技都是狗屁。你让人家用你的产品，那通过你的产品是否会节省人家的时间？节省时间体现在你产品的方方面面，而让一个访问你们网站的人从“人家”变成“用户”的过程，首先面对的就是注册的过程，在你每增加一个注册项的时候，是否真正认真地考虑过：</p>
+
+<ul>
+<li>它对用户使用产品是必须的吗？如果不是，只是为了让用户的个人页面更好看的话，那你真的高估自己的产品了。用户如果觉得个人页面丑陋不好意思给别人看的话，他会去改的。但，记住，前提是用户打算继续使用你的产品。对于那些目的单纯地想搜集用户更多信息以滥用的行为，我只能送你一根手指。而如果你想通过这个表格直接过滤掉一些根本就不会成为你的真正用户的牛逼做法，我一定会对你设计的这个表格投以赞许的目光。</li>
+<li>测试过填写或者填写错误然后改正需要的时间么？啊，你说这项只需要1秒就可以填好啦。那如果你有100万“人家”来注册，时间是多少呢，10个手指头能算过来么？</li>
+</ul>
+
+
+<p>在这个信息量丰富到让你咋舌的时代（一个网站统计说，2012-2013存储的数据占历史上所有的数据存储总和的98%），一篇稍长一点的文章我都会考虑是否要继续阅读。而对于你的网站来说，你要知道你经常只有很少的时间来吸引人的注意力，而如果“人家”愿意注册了，证明你已经成功了一半，但你不想只成功一半吧。21%的人会因为网站复杂的注册项目而放弃注册，知识大爆炸时代人们的时间是多么宝贵啊！</p>
+
+<p>我认为的好的注册体验：</p>
+
+<ul>
+<li>Don&rsquo;t let me think. 如果让用户花时间去想想应该怎么填的话，就是失败的。比如说，请按照year-month-date格式去填写。</li>
+<li>不使用验证码。在数据验证方面多下些功夫，总比让用户趴电脑屏幕前面猜那个字母是C还是G要好多了。而且删除一些垃圾用户的信息有那么难么？</li>
+<li>大的表格，大的字体。这个标准无论是放到一篇文章里，还是作为提示的文字，我都很喜欢。</li>
+<li>只填写必要的信息。一般用户名用来生成个人用户页面的链接，email用来确认注册成功或者重置密码，如果你想让用户填写生日和性别一类的东西，给一个强大的理由吧。</li>
+<li>安全。各种网站用户数据泄漏的发生，可能你和用户说100遍“你的数据在我们网站是安全的”用户都不会信，但是安全确实是用户很关心的。</li>
+</ul>
+
+
+<p>如果你让注册这个“多余的”过程成为一个好的体验的话，那真是太棒了！</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jiyang Liu</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-09T10:05:00+08:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/opinions/'>opinions</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://luckyyang.github.com/blog/2013/09/09/signup-bad-practices/" data-via="" data-counturl="http://luckyyang.github.com/blog/2013/09/09/signup-bad-practices/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/08/03/gratitude-and-thanks/" title="Previous Post: 报恩和感恩">&laquo; 报恩和感恩</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/09/09/signup-bad-practices/">如果注册也能很快乐</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/08/03/gratitude-and-thanks/">报恩和感恩</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/08/03/100-happy-things-number-8/">100件让我开心的事 #8</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/07/17/100-happy-things-number-7/">100件让我开心的事 #7</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/07/17/100-happy-things-number-6/">100件让我开心的事 #6</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Jiyang Liu -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'luckyyang';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://luckyyang.github.com/blog/2013/09/09/signup-bad-practices/';
+        var disqus_url = 'http://luckyyang.github.com/blog/2013/09/09/signup-bad-practices/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

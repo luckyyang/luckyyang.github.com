@@ -4,7 +4,7 @@
   <title><![CDATA[编程向左，人生向右]]></title>
   <link href="http://luckyyang.github.com/atom.xml" rel="self"/>
   <link href="http://luckyyang.github.com/"/>
-  <updated>2013-08-03T11:46:22+08:00</updated>
+  <updated>2013-09-05T23:18:45+08:00</updated>
   <id>http://luckyyang.github.com/</id>
   <author>
     <name><![CDATA[Jiyang Liu]]></name>
@@ -12,6 +12,59 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如果注册也能很快乐]]></title>
+    <link href="http://luckyyang.github.com/blog/2013/09/09/signup-bad-practices/"/>
+    <updated>2013-09-09T10:05:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2013/09/09/signup-bad-practices</id>
+    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/signup_good.png" title="注册页面" alt="注册页面" width="500"></p>
+
+<p>图片来自<a href="http://dribbble.com/shots/1219723-Where-your-journey-begins-v2">dribbble</a></p>
+
+<p>前几天因为我们网站的需要，我打算试用一个网站的服务。而首先，我得注册。面对这串长长的表格，我犹豫了好一阵，想是否还要用这个服务。在挣扎了好几分钟，注册页面被打开和关闭了3次之后，我还是决定注册了：反正只需要注册一次，如果他们的服务不好，我再恨他们也不迟。</p>
+
+<!-- more -->
+
+
+<p>抱歉，贴这么长的图，让你的鼠标滚轮多滚了1.8圈。
+<img src="http://luckyyang.github.com/images/signup_long.png" title="注册表格很长" alt="注册表格很长" width="500"></p>
+
+<p>一般的网站注册都包含至少3项（如果有少于三项的请告诉我）：</p>
+
+<ul>
+<li>用户名</li>
+<li>邮箱</li>
+<li>密码</li>
+</ul>
+
+
+<p>有的网站访问量很大（？）的话，还会有我经常会填错或者看不清的验证码。</p>
+
+<p>我不懂什么用户体验设计一类的东西，我只知道一个产品，你给人家用的时候，是不是让人家感觉舒服。就好像我买鞋一样，我不关心你用的什么高科技材料，我只需要知道我穿着是否舒服，如果不舒服，谈什么高科技都是狗屁。你让人家用你的产品，那通过你的产品是否会节省人家的时间？节省时间体现在你产品的方方面面，而让一个访问你们网站的人从“人家”变成“用户”的过程，首先面对的就是注册的过程，在你每增加一个注册项的时候，是否真正认真地考虑过：</p>
+
+<ul>
+<li>它对用户使用产品是必须的吗？如果不是，只是为了让用户的个人页面更好看的话，那你真的高估自己的产品了。用户如果觉得个人页面丑陋不好意思给别人看的话，他会去改的。但，记住，前提是用户打算继续使用你的产品。对于那些目的单纯地想搜集用户更多信息以滥用的行为，我只能送你一根手指。而如果你想通过这个表格直接过滤掉一些根本就不会成为你的真正用户的牛逼做法，我一定会对你设计的这个表格投以赞许的目光。</li>
+<li>测试过填写或者填写错误然后改正需要的时间么？啊，你说这项只需要1秒就可以填好啦。那如果你有100万“人家”来注册，时间是多少呢，10个手指头能算过来么？</li>
+</ul>
+
+
+<p>在这个信息量丰富到让你咋舌的时代（一个网站统计说，2012-2013存储的数据占历史上所有的数据存储总和的98%），一篇稍长一点的文章我都会考虑是否要继续阅读。而对于你的网站来说，你要知道你经常只有很少的时间来吸引人的注意力，而如果“人家”愿意注册了，证明你已经成功了一半，但你不想只成功一半吧。21%的人会因为网站复杂的注册项目而放弃注册，知识大爆炸时代人们的时间是多么宝贵啊！</p>
+
+<p>我认为的好的注册体验：</p>
+
+<ul>
+<li>Don&rsquo;t let me think. 如果让用户花时间去想想应该怎么填的话，就是失败的。比如说，请按照year-month-date格式去填写。</li>
+<li>不使用验证码。在数据验证方面多下些功夫，总比让用户趴电脑屏幕前面猜那个字母是C还是G要好多了。而且删除一些垃圾用户的信息有那么难么？</li>
+<li>大的表格，大的字体。这个标准无论是放到一篇文章里，还是作为提示的文字，我都很喜欢。</li>
+<li>只填写必要的信息。一般用户名用来生成个人用户页面的链接，email用来确认注册成功或者重置密码，如果你想让用户填写生日和性别一类的东西，给一个强大的理由吧。</li>
+<li>安全。各种网站用户数据泄漏的发生，可能你和用户说100遍“你的数据在我们网站是安全的”用户都不会信，但是安全确实是用户很关心的。</li>
+</ul>
+
+
+<p>如果你让注册这个“多余的”过程成为一个好的体验的话，那真是太棒了！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[报恩和感恩]]></title>
@@ -992,38 +1045,6 @@ Williams写的这本书让人读起来非常亲切，她归纳了四点原则贯
 
 <p>瞧，画画也没那么难，我隔壁的6岁小姑娘还给我打了<strong>100分</strong>。
 <img src="http://luckyyang.github.com/images/my_horse.jpg" alt="my horse" width="500"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[辞职后的这一个月我都做了什么]]></title>
-    <link href="http://luckyyang.github.com/blog/2012/12/06/ci-zhi-hou-de-zhe-yi-ge-yue-wo-dou-zuo-le-shen-me/"/>
-    <updated>2012-12-06T08:47:00+08:00</updated>
-    <id>http://luckyyang.github.com/blog/2012/12/06/ci-zhi-hou-de-zhe-yi-ge-yue-wo-dou-zuo-le-shen-me</id>
-    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/sun_down.jpg" alt="who_is_who" width="500" ></p>
-
-<ol>
-<li><p>全心学习<a href="http://guides.rubyonrails.org/">Rails</a>，参照官方guides做了一遍blog教程，自己大概写了一遍。</p></li>
-<li><p>坚持游泳，每次办小时，每周约4次，<a href="http://v.youku.com/v_show/id_XMzA0Njk0MjY0.html">自由泳</a>有很大进步。</p></li>
-</ol>
-
-
-<!-- more -->
-
-
-<ol>
-<li><p>看了很好的一个电影<a href="http://movie.douban.com/subject/1292656/">《心灵捕手》</a>和不错的<a href="http://movie.douban.com/review/1929689/">影评</a>。</p></li>
-<li><p>用一周时间把<a href="http://book.douban.com/subject/4774858/">Agile Web Development with Rails</a>认真看完。</p></li>
-<li><p>坚持使用<a href="http://pomotodo.com/index.php">番茄工作法</a>，效率有提高，休息时间变长。</p></li>
-<li><p>坚持午睡30分钟。</p></li>
-<li><p>没有智能手机，远离QQ，微博等社交工具，给自己多留出时间思考。</p></li>
-<li><p>喜欢并开始研究<a href="https://github.com/">Github</a>风格，并和<a href="http://happycasts.net/">Peter</a>一起决定做一个Github风格的公司。</p></li>
-<li><p>开通<a href="http://luckyyang.github.com/">Github博客</a>，并坚持写作。</p></li>
-<li><p>听了些Shania Twain的歌，看了若干晓说和锵锵三人行。</p></li>
-<li><p>将显示器用书垫高25cm，让自己的脖子舒服一些。</p></li>
-<li><p>吃了很多咸鸭蛋和猪头肉，但就是不长肉。</p></li>
-</ol>
-
 ]]></content>
   </entry>
   
