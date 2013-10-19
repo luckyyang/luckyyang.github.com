@@ -3,7 +3,7 @@ layout: post
 title: "我们要成为一个什么样的公司"
 date: 2012-12-03 21:02
 comments: true
-categories: startup
+categories: 创业
 ---
 
 <img src="/images/who_we_are.jpg" alt="who_is_who" width="500" >

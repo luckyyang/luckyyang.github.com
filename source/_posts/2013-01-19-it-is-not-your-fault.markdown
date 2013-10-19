@@ -3,7 +3,7 @@ layout: post
 title: 那不是你的错
 date: 2013-01-19 23:53
 comments: true
-categories: opinion
+categories: 随笔
 ---
 
 <img src="/images/lonely_back.jpg" alt="it_is_not_your_fault" width="500">

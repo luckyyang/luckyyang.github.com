@@ -3,7 +3,7 @@ layout: post
 title: UBUNTU 12.04下解决打开txt文件乱码问题
 date: 2013-01-19 21:38
 comments: true
-categories: tips
+categories: Linux
 ---
 
 <img src="/images/ubuntu_rain_in_baires.png" alt="ubuntu_rain_in_baires" width="500" >

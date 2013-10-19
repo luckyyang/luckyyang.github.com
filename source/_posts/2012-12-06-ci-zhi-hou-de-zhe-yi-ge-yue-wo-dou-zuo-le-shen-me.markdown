@@ -3,7 +3,7 @@ layout: post
 title: 辞职后的这一个月我都做了什么
 date: 2012-12-06 08:47
 comments: true
-categories: grocery
+categories: 随笔
 ---
 
 <img src="/images/sun_down.jpg" alt="who_is_who" width="500" >

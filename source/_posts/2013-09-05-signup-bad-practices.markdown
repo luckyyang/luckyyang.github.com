@@ -3,7 +3,7 @@ layout: post
 title: "如果注册也能很快乐"
 date: 2013-09-09 10:05
 comments: true
-categories: opinions
+categories: 随笔
 ---
 
 <img src="/images/signup_good.png" title="注册页面" alt="注册页面" width="500">

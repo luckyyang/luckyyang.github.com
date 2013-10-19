@@ -3,7 +3,7 @@ layout: post
 title: "我不喜欢电脑"
 date: 2013-06-18 21:53
 comments: true
-categories: opinion
+categories: 随笔
 ---
 
 <img src="/images/hack_the_planet.jpg" title="各种点啊" alt="hack the planet!" width="500">

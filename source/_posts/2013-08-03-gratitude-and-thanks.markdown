@@ -3,7 +3,7 @@ layout: post
 title: "报恩和感恩"
 date: 2013-08-03 09:05
 comments: true
-categories: opinions
+categories: 随笔
 ---
 
 <img src="/images/gratitude_and_thanks.jpg" title="报恩和感恩" alt="报恩和感恩" width="500">

@@ -3,7 +3,7 @@ layout: post
 title: "如果你不是专业设计人员"
 date: 2012-12-12 11:29
 comments: true
-categories: grocery
+categories: 随笔
 ---
 
 <img src="/images/robin_williams_book.jpg" alt="Robin Williams" width="500">

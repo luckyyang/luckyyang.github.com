@@ -3,7 +3,7 @@ layout: post
 title: "你可以做到"
 date: 2013-06-04 23:37
 comments: true
-categories: opinion
+categories: 随笔
 ---
 
 <img src="/images/you_did_it.jpg" alt="你做到了" width="500">

@@ -3,7 +3,7 @@ layout: post
 title: "如何保持好的心态"
 date: 2013-06-05 10:47
 comments: true
-categories: opinion
+categories: 随笔
 ---
 
 <img src="/images/naked_plates.jpg" title="吃货自白：其实也没吃多少啦" alt="吃货自白：其实也没吃多少啦" width="500">

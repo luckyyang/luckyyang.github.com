@@ -3,7 +3,7 @@ layout: post
 title: "在贵州古寨"
 date: 2012-12-24 09:11
 comments: true
-categories: travel
+categories: 旅行
 ---
 
 <img src="/images/guzhai.jpg" alt="古寨" width="500" >

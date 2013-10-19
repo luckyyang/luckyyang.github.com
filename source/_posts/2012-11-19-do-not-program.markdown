@@ -3,7 +3,7 @@ layout: post
 title: 别去编程
 date: 2012-11-19 17:47
 comments: true
-categories: opinion
+categories: 随笔
 ---
 
 <p>

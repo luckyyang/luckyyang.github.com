@@ -3,7 +3,7 @@ layout: post
 title: 你需要多一点个性
 date: 2013-01-19 22:45
 comments: true
-categories: 
+categories: 随笔
 ---
 
 <img src="/images/personal_character.jpg" alt="personal_character" width="500">

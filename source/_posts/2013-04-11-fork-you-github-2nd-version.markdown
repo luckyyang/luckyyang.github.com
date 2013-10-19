@@ -3,7 +3,7 @@ layout: post
 title: "Fork You! Github（简化版）"
 date: 2013-04-11 09:24
 comments: true
-categories: talks
+categories: 演讲
 ---
 
 <div class="entry-content"><p>这篇文章是之前发布的<a href="http://luckyyang.github.io/blog/2013/03/23/fork-you-github/">Fork You！ Github</a>的简化版，去掉了一些比较口语话的东西。</p>
