@@ -6,7 +6,7 @@ comments: true
 categories: 随笔
 ---
 
-<img src="/images/naked_plates.jpg" title="吃货自白：其实也没吃多少啦" alt="吃货自白：其实也没吃多少啦" width="500">
+<img src="/images/naked_plates.jpg" title="吃货自白：其实也没吃多少啦" alt="吃货自白：其实也没吃多少啦">
 
 这不是一个教程和说教，只是我自己每天都在实践的，还有自己的感受。如果你想了解更多的方法，去google “如何保持好的心态”，我相信你会找到很多很好的文章。
 

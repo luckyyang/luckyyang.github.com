@@ -6,7 +6,7 @@ comments: true
 categories: 100件让我开心的事
 ---
 
-<img src="/images/basketball_court.jpg" title="篮球，我爱你！" alt="其实球场是水泥地" width="500">
+<img src="/images/basketball_court.jpg" title="篮球，我爱你！" alt="其实球场是水泥地">
 
 ### 今天打篮球很开心
 

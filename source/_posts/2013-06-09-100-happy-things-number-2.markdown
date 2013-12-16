@@ -5,7 +5,7 @@ date: 2013-06-09 23:29
 comments: true
 categories: 100件让我开心的事
 ---
-<img src="/images/sand_and_sea.jpg" title="海和沙子" alt="大海和沙子" width="500">
+<img src="/images/sand_and_sea.jpg" title="海和沙子" alt="大海和沙子">
 
 ### 海边的沙子
 

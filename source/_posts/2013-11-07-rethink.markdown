@@ -6,7 +6,7 @@ comments: true
 categories: 随笔
 ---
 
-<img src="/images/jinshariver.jpg" title="金沙江" alt="金沙江" width="500">
+<img src="/images/jinshariver.jpg" title="金沙江" alt="金沙江">
 
 哎，其实说白了，就是反思。
 

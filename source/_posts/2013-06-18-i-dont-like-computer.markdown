@@ -6,7 +6,7 @@ comments: true
 categories: 随笔
 ---
 
-<img src="/images/hack_the_planet.jpg" title="各种点啊" alt="hack the planet!" width="500">
+<img src="/images/hack_the_planet.jpg" title="各种点啊" alt="hack the planet!">
 
 对，我不喜欢电脑。
 

@@ -6,6 +6,6 @@ comments: true
 categories: 100件让我开心的事
 ---
 
-<img src="/images/happypeter.jpg" title="peter！" alt="peter" width="500">
+<img src="/images/happypeter.jpg" title="peter！" alt="peter">
 
 Peter 要搬过来。（完）

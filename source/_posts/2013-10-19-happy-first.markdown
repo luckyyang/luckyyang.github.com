@@ -6,7 +6,7 @@ comments: true
 categories: 创业
 ---
 
-<img src="/images/2013-09-30.jpg" title="12年09月30号于内蒙古库布其沙漠" alt="12年09月30号于内蒙古库布其沙漠" width="500">
+<img src="/images/2013-09-30.jpg" title="12年09月30号于内蒙古库布其沙漠" alt="12年09月30号于内蒙古库布其沙漠">
 
 最近在整理我们创业的一些故事，发布在我们刚做的一个[外包项目](http://shizilukou.cn/%E5%A5%BD%E5%A5%87%E7%8C%AB)上。看到当时一个关于[股份讨论的issue](https://github.com/happypeter/onestep/issues/90)，现在看来也很有意思。不同于一般的八卦聊天和疯婆娘吵架，我们吵的还是很有诚意和态度的（猜猜哪个是我？）。未删减无码版如下（如果你点了上一个链接，后面这个链接就不用点了，它们是一样的：原网页在[这里](https://github.com/happypeter/onestep/issues/90)）：
 

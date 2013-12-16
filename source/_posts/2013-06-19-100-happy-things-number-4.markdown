@@ -6,7 +6,7 @@ comments: true
 categories: 100件让我开心的事
 ---
 
-<img src="/images/graduation_season.jpg" title="好不热闹！" alt="毕业啦，卖东西啦" width="500">
+<img src="/images/graduation_season.jpg" title="好不热闹！" alt="毕业啦，卖东西啦">
 
 ### 一块钱能干什么
 

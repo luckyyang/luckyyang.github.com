@@ -6,7 +6,7 @@ comments: true
 categories: 创业
 ---
 
-<img src="/images/who_we_are.jpg" alt="who_is_who" width="500" >
+<img src="/images/who_we_are.jpg" alt="who_is_who">
 
 > 做一个好的产品，做一个人们喜欢用的产品。
 

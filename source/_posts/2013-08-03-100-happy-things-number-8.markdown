@@ -5,7 +5,7 @@ date: 2013-08-03 08:37
 comments: true
 categories: 100件让我开心的事
 ---
-<img src="/images/happy_8.jpg" title="街舞" alt="街舞" width="500">
+<img src="/images/happy_8.jpg" title="街舞" alt="街舞">
 
 图片来自[flickr](http://www.flickr.com/photos/realsaw/5048804578/sizes/o/in/photostream/)。
 

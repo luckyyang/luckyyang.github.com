@@ -6,7 +6,7 @@ comments: true
 categories: 随笔
 ---
 
-<img src="/images/gratitude_and_thanks.jpg" title="报恩和感恩" alt="报恩和感恩" width="500">
+<img src="/images/gratitude_and_thanks.jpg" title="报恩和感恩" alt="报恩和感恩">
 
 图片来自[flickr](http://www.flickr.com/photos/39042861@N04/5963620161/in/photolist-a5Z7vg-8DL8t6-fi293d-aDVWhk-aoCqj7-av1hFZ-aB6tfo-9u2NGS-ca7Bnu-8MrDN6-aKcxZ2-8YC9Mf-8BMFTG-9xabrP-aQRmXx-acViqJ-8fmnap-bd63z4-9wbQrA-9iicEr-7SVSGZ-dV7P5g-cmGhmS-8UqzQX-cMnwjd-95MpNc-9x8Yoc-bnUhYL-8kceYF-898ynb-8MewoS-8CaFv7-dVxEaC-aFbV56-7HNXHh-85z5MK)
 

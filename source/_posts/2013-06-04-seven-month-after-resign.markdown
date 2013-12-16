@@ -6,7 +6,7 @@ comments: true
 categories: 随笔
 ---
 
-<img src="/images/you_did_it.jpg" alt="你做到了" width="500">
+<img src="/images/you_did_it.jpg" alt="你做到了">
 
 从去年11月2号辞职到现在，已经过了7个月加2天。我还好好的活着，感谢一直关心和担心我的人。
 

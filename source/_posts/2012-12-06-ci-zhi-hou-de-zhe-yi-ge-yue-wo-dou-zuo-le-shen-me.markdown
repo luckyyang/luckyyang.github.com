@@ -6,7 +6,7 @@ comments: true
 categories: 随笔
 ---
 
-<img src="/images/sun_down.jpg" alt="who_is_who" width="500" >
+<img src="/images/sun_down.jpg" alt="who_is_who" >
 
 1.
 全心学习[Rails](http://guides.rubyonrails.org/)，参照官方guides做了一遍blog教程，自己大概写了一遍。

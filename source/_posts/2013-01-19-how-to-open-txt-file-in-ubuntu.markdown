@@ -6,7 +6,7 @@ comments: true
 categories: Linux
 ---
 
-<img src="/images/ubuntu_rain_in_baires.png" alt="ubuntu_rain_in_baires" width="500" >
+<img src="/images/ubuntu_rain_in_baires.png" alt="ubuntu_rain_in_baires" >
 
 前几天因为一点事不得不用下windows，然后就在里面记了点东西，之后拷贝到ubuntu后发现乱码，开始也懒得去管它，可放在那始终是个问题，而且我最近正好要用到文档里的内容，就在网上搜索了下，基本的解决方法是这样的：
 

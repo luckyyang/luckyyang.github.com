@@ -6,7 +6,7 @@ comments: true
 categories: 随笔
 ---
 
-<img src="/images/robin_williams_book.jpg" alt="Robin Williams" width="500">
+<img src="/images/robin_williams_book.jpg" alt="Robin Williams">
 
 ### 设计离我们很远么？
 

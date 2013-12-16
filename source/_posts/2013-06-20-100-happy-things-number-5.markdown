@@ -5,7 +5,7 @@ date: 2013-06-20 23:24
 comments: true
 categories: 100件让我开心的事
 ---
-<img src="/images/technoliophy.jpg" title="激荡思维的讲座！" alt="燕山大学哲学老师的讲座" width="500">
+<img src="/images/technoliophy.jpg" title="激荡思维的讲座！" alt="燕山大学哲学老师的讲座">
 
 昨天打完球去教室洗手，出来看到一个讲座，关于技术哲学的，虽然不知道具体讲什么。但至少技术和哲学都是我很感兴趣的，打算今天去听听。
 

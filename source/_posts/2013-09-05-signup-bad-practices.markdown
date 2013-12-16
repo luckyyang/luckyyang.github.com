@@ -6,7 +6,7 @@ comments: true
 categories: 随笔
 ---
 
-<img src="/images/signup_good.png" title="注册页面" alt="注册页面" width="500">
+<img src="/images/signup_good.png" title="注册页面" alt="注册页面">
 
 图片来自[dribbble](http://dribbble.com/shots/1219723-Where-your-journey-begins-v2)
 

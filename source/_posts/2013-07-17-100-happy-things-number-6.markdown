@@ -5,7 +5,7 @@ date: 2013-07-17 09:55
 comments: true
 categories: 100件让我开心的事
 ---
-<img src="/images/happy_6.jpg" title="还是水里凉快" alt="畅游大海" width="500">
+<img src="/images/happy_6.jpg" title="还是水里凉快" alt="畅游大海">
 
 有一段时间没有更新了，因为最近说的比较多，想的相对少了点。
 

@@ -6,7 +6,7 @@ comments: true
 categories: 随笔
 ---
 
-<img src="/images/personal_character.jpg" alt="personal_character" width="500">
+<img src="/images/personal_character.jpg" alt="personal_character">
 
 如果3年前有人问我，如何让生活过得有意义，我会很认真地和他说：“要有理想，思考自己喜欢的东西，追求自己的方向，探索一条适合自己的路。”而现在有人问我如何让生活过得有意义，我会笑着和他说：“人活着得有个性！”然后他问我如何才能变得有个性的话，我会很认真地和他说：“要有理想，思考自己喜欢的东西，追求自己的方向，探索一条适合自己的路。”
 
