@@ -4,7 +4,7 @@
   <title><![CDATA[Category: learning | 编程向左，人生向右]]></title>
   <link href="http://luckyyang.github.com/blog/categories/learning/atom.xml" rel="self"/>
   <link href="http://luckyyang.github.com/"/>
-  <updated>2014-03-25T11:16:30+08:00</updated>
+  <updated>2014-03-25T21:09:50+08:00</updated>
   <id>http://luckyyang.github.com/</id>
   <author>
     <name><![CDATA[Jiyang Liu]]></name>
@@ -14,13 +14,272 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Tutsplus Design School Learning Notes(3) - Color Schemes]]></title>
+    <link href="http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-3/"/>
+    <updated>2014-03-25T20:31:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-3</id>
+    <content type="html"><![CDATA[<p>Notes from <a href="http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793">Tutsplus&rsquo;s courses</a></p>
+
+<p>Some glossary:</p>
+
+<ul>
+<li>Hue: Color itself, like red, yellow, blue</li>
+<li>Tint: Add white to the hue, make lighter</li>
+<li>Shade: Add black to the hue, make darker</li>
+<li>Tone: Add grey to the hue</li>
+</ul>
+
+
+<h2>Monochromatic</h2>
+
+<p>Use one hue and various tints and shades of that original color.
+<img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-monochromatic.jpg  " ></p>
+
+<!-- more -->
+
+
+<h2>Analogous</h2>
+
+<p>Created by choosing hues that are next to each other on the color wheel.
+<img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-analogous.jpg  " ></p>
+
+<h2>Complementray</h2>
+
+<p>Choosing two colors that opposite on the color wheel.
+<img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-complementary.jpg  " ></p>
+
+<h2>Split Complementary</h2>
+
+<p>Created by taking one color then taking the two colors that are either side of what would be the first color&rsquo;s complementary.
+<img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-split-complementary.jpg  " ></p>
+
+<h2>Triadic</h2>
+
+<p>Use three color that are evenly spaced around the color wheel.
+<img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-triadic.jpg  " ></p>
+
+<h2>Tetradic</h2>
+
+<p>Pairing two set of complementary color schemes.
+<img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-tetradic.jpg  " ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tutsplus Design School Learning Notes(2) - Colors 101]]></title>
+    <link href="http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-2/"/>
+    <updated>2014-03-25T20:30:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-2</id>
+    <content type="html"><![CDATA[<p>Notes from <a href="http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793">Tutsplus&rsquo;s courses</a></p>
+
+<h2>Designing and Recognizing Colors</h2>
+
+<p>It&rsquo;s wise to ensure that you understand your target and how the color affects them.</p>
+
+<h3>Color wheel</h3>
+
+<p><img src="http://luckyyang.github.com/images/color_wheel/colour-wheel.jpg " title="color wheel" alt="color wheel" ></p>
+
+<!-- more -->
+
+
+<ul>
+<li>Primary colors
+<img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-primary.jpg " title="primary color" alt="primary color" ></li>
+<li>Secondary colors
+<img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-secondary.jpg  " title="secondary color" alt="secondary color" ></li>
+<li>Tertiary colors
+<img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-tertiary.jpg" title="tertiary color" alt="tertiary color" ></li>
+</ul>
+
+
+<h3>Color family</h3>
+
+<ul>
+<li>Warm colors</li>
+</ul>
+
+
+<p><img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-warm-family.jpg" title="warm family" alt="warm family" ></p>
+
+<ul>
+<li>Cool colors</li>
+</ul>
+
+
+<p><img src="http://luckyyang.github.com/images/color_wheel/colour-wheel-cool-family.jpg  " title="cool family" alt="cool family" ></p>
+
+<h3>Color meanings</h3>
+
+<p>It&rsquo;s important to understand every color has different significance depending on the people you talk wherever you are in the world.</p>
+
+<h2>Understanding the qualities and characteristics of color</h2>
+
+<h3>Red</h3>
+
+<p>A part of the warmer color family, the primary color red is a strong, emotionally-intense color.</p>
+
+<p>Some associations:</p>
+
+<ul>
+<li>energy</li>
+<li>positivity</li>
+<li>action</li>
+<li>war</li>
+<li>danger</li>
+<li>strength</li>
+<li>courage</li>
+<li>all things intense and passionate</li>
+<li>love, sex, passion, desire</li>
+</ul>
+
+
+<p>In other cultures, red has completely different meanings. India for wedding represents purity, however South Africa for mourning.</p>
+
+<p>It&rsquo;s often wise to use red more as a accent color than a focal color for the whole of a website.</p>
+
+<h3>Orange</h3>
+
+<p>Belongs to warmer color family too, orange is often seen as bright, optimistic and uplifting color.</p>
+
+<p>Some associations:</p>
+
+<ul>
+<li>enthusiasm</li>
+<li>happiness</li>
+<li>gut reactions</li>
+<li>spontaneity</li>
+<li>adventure, risk-taking</li>
+<li>autumn(fall) and harvest</li>
+<li>creativity</li>
+<li>citrus</li>
+<li>healthy food</li>
+</ul>
+
+
+<p>Orange associates with autumn and the transition between seasons &ndash; so why not use orange as the transition between different areas of your design?</p>
+
+<h3>Yellow</h3>
+
+<p>The last of the main warm color. Bright, creative color.</p>
+
+<p>Associations:</p>
+
+<ul>
+<li>creativity</li>
+<li>sunshine</li>
+<li>happiness</li>
+<li>energy</li>
+<li>cowardice</li>
+<li>deceit</li>
+<li>warnings</li>
+<li>instability</li>
+<li>clarity</li>
+<li>activity</li>
+</ul>
+
+
+<p>Beware that too much yellow can introduce feelings of anxiety &ndash; due to it such a bright, &ldquo;fast-moving&rdquo; color too much yellow can lead to an unbalanced feel for your website. Instead, try to introduce other colors alongside yellow and use yellow as a highlight on a page.</p>
+
+<h3>Green</h3>
+
+<p>Part of cooler color family.</p>
+
+<p>Associations:</p>
+
+<ul>
+<li>spring</li>
+<li>growth</li>
+<li>renewal &amp; rebirth</li>
+<li>balance</li>
+<li>nature</li>
+<li>grass &amp; gardens</li>
+<li>stability</li>
+<li>possessiveness</li>
+<li>jealousy</li>
+<li>envy</li>
+<li>fertility</li>
+<li>safety</li>
+<li>money</li>
+<li>recycling</li>
+</ul>
+
+
+<p>Green offers a sense of stability and balance. Good to use in your design when you want to indicate your product or service is safe or reliable to use.</p>
+
+<p>But notice green&rsquo;s feeling of jealousy and envy, so be careful and ensure the balance.</p>
+
+<h3>Blue</h3>
+
+<p>The coolest of all the main colors, is often seen as a very reliable and tranquil color, mostly likely to the most association with sky and sea.</p>
+
+<p>A conservative color, it is often used well in designs that represent cleanliness and and air of responsibility.</p>
+
+<p>Associations:</p>
+
+<ul>
+<li>the sea</li>
+<li>the sky</li>
+<li>honesty</li>
+<li>loyally</li>
+<li>trust</li>
+<li>sincerity</li>
+<li>peace</li>
+<li>tranquility</li>
+<li>intelligence</li>
+</ul>
+
+
+<p>Stress-reducing color that is often used in designs for masculine and corporate audiences.</p>
+
+<p>Invokes feeling of trust, honesty and security so blue lends itself well in particular to the designs for products, services and companies that want to evoke that feelings in their audiences.</p>
+
+<p>Not suitable for food.</p>
+
+<p>Too much blue can be stifling and old-fashioned, depends on the shades used.</p>
+
+<h3>Violet/Purple</h3>
+
+<p>The last of the cooler color family, seen as quite a mysterious color, usually representing ambition, royalty and power.</p>
+
+<p>Associations:</p>
+
+<ul>
+<li>royalty</li>
+<li>imagination</li>
+<li>power</li>
+<li>luxury</li>
+<li>wealth</li>
+<li>ambition</li>
+<li>widsom</li>
+<li>magic</li>
+<li>mystery</li>
+</ul>
+
+
+<p>Combination of red and blue, intriguing and both calm and tranquil effect of blue and the energy that red offers.</p>
+
+<p>Purple is often seen as luxury.</p>
+
+<p>Be careful too much purple &ndash; while certain mount can promote a more majestic, luxurious feeling to your design, too much can irritate and is heard to aggravate depression in some people.</p>
+
+<p>Most children prefer purple.</p>
+
+<p>Using purple can also boost imagination and creativity and lighter shades of purple works well in feminine designs.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Tutsplus Design School Learning Notes(1)]]></title>
     <link href="http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-1/"/>
     <updated>2014-03-25T11:07:00+08:00</updated>
     <id>http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-1</id>
-    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/design_school_1.png" title="Tutsplus Design School Learning Notes" alt="Tutsplus Design School Learning Notes" ></p>
+    <content type="html"><![CDATA[<p>Notes from <a href="http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793">Tutsplus&rsquo;s courses</a></p>
 
-<p>Notes from <a href="http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793">Tutsplus&rsquo;s courses</a></p>
+<p><img src="http://luckyyang.github.com/images/design_school_1.png" title="Tutsplus Design School Learning Notes" alt="Tutsplus Design School Learning Notes" ></p>
+
+<!-- more -->
+
 
 <h2>Planning a Design Project</h2>
 
@@ -35,7 +294,8 @@
 
 <h3>Sitemaps</h3>
 
-<p>I have some experience on Freemind, also a nice mind map software.</p>
+<p>This is a basic sitemap created using MindnodePro. I have some experience on Freemind, also a nice mind map software.
+<img src="http://luckyyang.github.com/images/sitemap.jpg" title="sitemap" alt="sitemap" ></p>
 
 <h2>Researching</h2>
 
@@ -51,11 +311,14 @@ And so on.</li>
 
 <h2>Sketching</h2>
 
-<p>Using your pen and paper.
-Sketching is not wireframing.
-&ndash; Mark the key words
-&ndash; Always in a schematic way
-&ndash; Ration the information in stages</p>
+<ul>
+<li>Using your pen and paper.</li>
+<li>Sketching is not wireframing.</li>
+<li>Mark the key words</li>
+<li>Always in a schematic way</li>
+<li>Ration the information in stages</li>
+</ul>
+
 
 <h2>Wireframes</h2>
 

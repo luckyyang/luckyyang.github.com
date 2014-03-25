@@ -4,7 +4,7 @@
   <title><![CDATA[Category: D3 | 编程向左，人生向右]]></title>
   <link href="http://luckyyang.github.com/blog/categories/d3/atom.xml" rel="self"/>
   <link href="http://luckyyang.github.com/"/>
-  <updated>2014-03-25T11:16:30+08:00</updated>
+  <updated>2014-03-25T21:09:50+08:00</updated>
   <id>http://luckyyang.github.com/</id>
   <author>
     <name><![CDATA[Jiyang Liu]]></name>
@@ -23,6 +23,9 @@
 <p>原始文章发表于<a href="http://haoqicat.com/blog/8-wo-wei-shi-yao-xuan-ze-d3">好奇猫博客</a>。</p>
 
 <p>这不是一篇介绍D3的使用<a href="http://haoqicat.com/luckyyang/wang-ye-shang-de-tu-biao">教程</a>，而是只想说说我为什么选择使用D3，借以思考在面对新的技术的时候我还如何选择。</p>
+
+<!-- more -->
+
 
 <p>这段时间我在录制一门课程<a href="http://haoqicat.com/luckyyang/wang-ye-shang-de-tu-biao">网页上的图表</a>。录制课程前我调查了一下，应该用哪些工具/库来制作图表。可以确定的是，我要用svg来生成图表，而不是用html5中的canvas。最开始采用的是<a href="http://raphaeljs.com/">Raphaël</a>，一个用来创建和操作网页上矢量图形的javascript库。最开始偏向于使用Raphaël是因为之前看到的一个<a href="http://www.wendyshijia.com/">很漂亮的页面</a>。在费了几天的时间，经过了很多挫折和参考资料没找到太多的情况下，做出了一个凑合的<a href="http://codepen.io/luckyyang/pen/nhLqG">简单的图表</a>。然后我退缩了，直到我发现了<a href="http://www.d3js.org/">D3</a>。</p>
 
