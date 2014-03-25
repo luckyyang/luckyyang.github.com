@@ -6,9 +6,11 @@ comments: true
 categories: design, learning
 ---
 
+Notes from [Tutsplus's courses]( http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
+
 <img src="/images/design_school_1.png" title="Tutsplus Design School Learning Notes" alt="Tutsplus Design School Learning Notes" >
 
-Notes from [Tutsplus's courses]( http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
+<!-- more -->
 
 ## Planning a Design Project
 
@@ -18,7 +20,9 @@ Notes from [Tutsplus's courses]( http://webdesign.tutsplus.com/series/design-sch
 - Contents hierarchy
 
 ### Sitemaps
-I have some experience on Freemind, also a nice mind map software.
+
+This is a basic sitemap created using MindnodePro. I have some experience on Freemind, also a nice mind map software.
+<img src="/images/sitemap.jpg" title="sitemap" alt="sitemap" >
 
 ## Researching
 - Competitors
@@ -29,8 +33,8 @@ I have some experience on Freemind, also a nice mind map software.
 And so on.
 
 ## Sketching
-Using your pen and paper.
-Sketching is not wireframing.
+- Using your pen and paper.
+- Sketching is not wireframing.
 - Mark the key words
 - Always in a schematic way
 - Ration the information in stages
