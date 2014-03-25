@@ -4,7 +4,7 @@
   <title><![CDATA[编程向左，人生向右]]></title>
   <link href="http://luckyyang.github.com/atom.xml" rel="self"/>
   <link href="http://luckyyang.github.com/"/>
-  <updated>2014-03-24T10:17:40+08:00</updated>
+  <updated>2014-03-25T11:16:30+08:00</updated>
   <id>http://luckyyang.github.com/</id>
   <author>
     <name><![CDATA[Jiyang Liu]]></name>
@@ -12,6 +12,85 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tutsplus Design School Learning Notes(1)]]></title>
+    <link href="http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-1/"/>
+    <updated>2014-03-25T11:07:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-1</id>
+    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/design_school_1.png" title="Tutsplus Design School Learning Notes" alt="Tutsplus Design School Learning Notes" ></p>
+
+<p>Notes from <a href="http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793">Tutsplus&rsquo;s courses</a></p>
+
+<h2>Planning a Design Project</h2>
+
+<h3>Working With Contents</h3>
+
+<ul>
+<li>Contents, real contents!</li>
+<li>Sorting contents</li>
+<li>Contents hierarchy</li>
+</ul>
+
+
+<h3>Sitemaps</h3>
+
+<p>I have some experience on Freemind, also a nice mind map software.</p>
+
+<h2>Researching</h2>
+
+<ul>
+<li>Competitors</li>
+<li>Your customer&rsquo;s industry</li>
+<li>Audience</li>
+<li>Goals</li>
+<li>Relevant design styles
+And so on.</li>
+</ul>
+
+
+<h2>Sketching</h2>
+
+<p>Using your pen and paper.
+Sketching is not wireframing.
+&ndash; Mark the key words
+&ndash; Always in a schematic way
+&ndash; Ration the information in stages</p>
+
+<h2>Wireframes</h2>
+
+<h3>Designing Creative Wireframes</h3>
+
+<ul>
+<li>Creating a digital wireframe is a professional way of nailing down your ideas on the layout and flow of of your web page.</li>
+<li>Keep in mind that the contents is the most important thing in the page, should suitable for the project and its end users.</li>
+<li>Consider the blocks, but don&rsquo;t take it too literally.</li>
+<li>Label your wireframes.</li>
+</ul>
+
+
+<h3>Consider the flow.</h3>
+
+<p>Look at the way that the contents sit on the page and how it flows from one section of contents to another.</p>
+
+<h3>Reponsive design and Wireframes.</h3>
+
+<p>tip: add numbers to wireframes to help identity the contents hierarchy when screen becomes smaller, from Sarah Parmenter&rsquo;s Responsive Day Out talk</p>
+
+<h3>Applications and Tools</h3>
+
+<ul>
+<li>Graphics Software(Photoshop, etc.)</li>
+<li>Keynote and Powerpoint</li>
+<li>Balsamiq Mockups</li>
+</ul>
+
+
+<h2>Designing and Recognizing Colors</h2>
+
+<p>It&rsquo;s wise to ensure that you understand your target and how the color affects them.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[100件让我开心的事#16 to #17]]></title>
@@ -810,30 +889,6 @@ Paul Graham 写过一篇文章叫 “黑客与画家”（<a href="http://paulgr
 <p>每次来到海边都让我感觉很放松，而且那种放松是自己提前不会想到的，就算离海边还有50米也不会感觉到。而到了海边，自己所有的思绪都被海水洗涤了一样，海浪的声音也会带给我一种融入感，感觉自己也和这美好的一切融合到了一起。躺在沙滩上，身体摆个“大”字（有些人会摆“木”字），仰望着蓝天，感受着咸腥的海风吹拂着身上的汗毛，簌簌的，轻轻的；今天的沙子温度正好和人的皮肤温度差不多，抚摸着细细的沙子，软软的就好像少女的肌肤一样。</p>
 
 <p>现在就有人在游泳，看得我心里直痒痒。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[100件让我开心的事 #1]]></title>
-    <link href="http://luckyyang.github.com/blog/2013/06/08/100-happy-things-number-1/"/>
-    <updated>2013-06-08T20:05:00+08:00</updated>
-    <id>http://luckyyang.github.com/blog/2013/06/08/100-happy-things-number-1</id>
-    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/basketball_court.jpg" title="篮球，我爱你！" alt="其实球场是水泥地"></p>
-
-<h3>今天打篮球很开心</h3>
-
-<p>难得能打一次很开心的篮球。不是说平常打的不开心，只是现在如果能打的很开心的话，需要几个因素：</p>
-
-<ul>
-<li>自己的状态不要太差，也就是正常发挥就好；</li>
-<li>打球的两方势均力敌；</li>
-<li>积极进攻和防守，球的轮转合理；</li>
-</ul>
-
-
-<p>这样的情况一般很难找，因为很多情况下都是两方实力差距太大，所以你也会打的很没兴致。现在我对输赢不是太在意，只是能尽兴就好。</p>
-
-<p>虽然把左手拇指戳了，但还是很开心。输球的一方做俯卧撑，我们一方做了大概5个，对方大概10个。</p>
 ]]></content>
   </entry>
   

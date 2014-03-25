@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: design, | 编程向左，人生向右]]></title>
+  <link href="http://luckyyang.github.com/blog/categories/design/atom.xml" rel="self"/>
+  <link href="http://luckyyang.github.com/"/>
+  <updated>2014-03-25T11:16:30+08:00</updated>
+  <id>http://luckyyang.github.com/</id>
+  <author>
+    <name><![CDATA[Jiyang Liu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tutsplus Design School Learning Notes(1)]]></title>
+    <link href="http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-1/"/>
+    <updated>2014-03-25T11:07:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-1</id>
+    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/design_school_1.png" title="Tutsplus Design School Learning Notes" alt="Tutsplus Design School Learning Notes" ></p>
+
+<p>Notes from <a href="http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793">Tutsplus&rsquo;s courses</a></p>
+
+<h2>Planning a Design Project</h2>
+
+<h3>Working With Contents</h3>
+
+<ul>
+<li>Contents, real contents!</li>
+<li>Sorting contents</li>
+<li>Contents hierarchy</li>
+</ul>
+
+
+<h3>Sitemaps</h3>
+
+<p>I have some experience on Freemind, also a nice mind map software.</p>
+
+<h2>Researching</h2>
+
+<ul>
+<li>Competitors</li>
+<li>Your customer&rsquo;s industry</li>
+<li>Audience</li>
+<li>Goals</li>
+<li>Relevant design styles
+And so on.</li>
+</ul>
+
+
+<h2>Sketching</h2>
+
+<p>Using your pen and paper.
+Sketching is not wireframing.
+&ndash; Mark the key words
+&ndash; Always in a schematic way
+&ndash; Ration the information in stages</p>
+
+<h2>Wireframes</h2>
+
+<h3>Designing Creative Wireframes</h3>
+
+<ul>
+<li>Creating a digital wireframe is a professional way of nailing down your ideas on the layout and flow of of your web page.</li>
+<li>Keep in mind that the contents is the most important thing in the page, should suitable for the project and its end users.</li>
+<li>Consider the blocks, but don&rsquo;t take it too literally.</li>
+<li>Label your wireframes.</li>
+</ul>
+
+
+<h3>Consider the flow.</h3>
+
+<p>Look at the way that the contents sit on the page and how it flows from one section of contents to another.</p>
+
+<h3>Reponsive design and Wireframes.</h3>
+
+<p>tip: add numbers to wireframes to help identity the contents hierarchy when screen becomes smaller, from Sarah Parmenter&rsquo;s Responsive Day Out talk</p>
+
+<h3>Applications and Tools</h3>
+
+<ul>
+<li>Graphics Software(Photoshop, etc.)</li>
+<li>Keynote and Powerpoint</li>
+<li>Balsamiq Mockups</li>
+</ul>
+
+
+<h2>Designing and Recognizing Colors</h2>
+
+<p>It&rsquo;s wise to ensure that you understand your target and how the color affects them.</p>
+]]></content>
+  </entry>
+  
+</feed>
