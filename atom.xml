@@ -4,7 +4,7 @@
   <title><![CDATA[编程向左，人生向右]]></title>
   <link href="http://luckyyang.github.com/atom.xml" rel="self"/>
   <link href="http://luckyyang.github.com/"/>
-  <updated>2014-03-25T21:09:50+08:00</updated>
+  <updated>2014-03-28T23:27:55+08:00</updated>
   <id>http://luckyyang.github.com/</id>
   <author>
     <name><![CDATA[Jiyang Liu]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如果我给别人讲课的第一课我会讲什么]]></title>
+    <link href="http://luckyyang.github.com/blog/2014/03/28/the-first-lesson-that-i-will-teach/"/>
+    <updated>2014-03-28T23:18:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2014/03/28/the-first-lesson-that-i-will-teach</id>
+    <content type="html"><![CDATA[<p>最近要做一个教育的项目，以后我可能也会在这个平台上教web开发的课。所以我就想，我会教给别人什么呢。我觉得至少我要让别人感受到我是热爱我所做的东西的。我还列了一个提纲出来，挺草的，先放这吧。</p>
+
+<h2>行业的状态</h2>
+
+<p>优秀的人，投资多，先进的思想和工作方法，世界范围内的协同工作</p>
+
+<h2>我的经历</h2>
+
+<ul>
+<li>原来，机械</li>
+<li>后来，迷茫，转行又转行</li>
+<li>现在，对的反向，因为。。。</li>
+<li>未来，继续坚定的走下去</li>
+</ul>
+
+
+<h2>我们应该如何做</h2>
+
+<ul>
+<li>中国在世界的位置</li>
+<li>我们在中国的位置所处的位置</li>
+<li>我们和高手差距很大，如何面对这种局面：怎样的行为方式，怎样的心里定位</li>
+<li>如何融入行业圈，如何能让学习，工作模式和生活模式一致</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tutsplus Design School Learning Notes(3) - Color Schemes]]></title>
@@ -1078,57 +1111,6 @@ Paul Graham 写过一篇文章叫 “黑客与画家”（<a href="http://paulgr
 <p>我买了一本书，列-托尔斯泰的《复活》。</p>
 
 <p>大学生毕业了，把闲置的东西拿出来卖，过去看看，挺有意思，什么东西都有。想起来我大学毕业的时候，虽然没卖什么东西，但是还不是整个把自己给卖了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[我不喜欢电脑]]></title>
-    <link href="http://luckyyang.github.com/blog/2013/06/18/i-dont-like-computer/"/>
-    <updated>2013-06-18T21:53:00+08:00</updated>
-    <id>http://luckyyang.github.com/blog/2013/06/18/i-dont-like-computer</id>
-    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/hack_the_planet.jpg" title="各种点啊" alt="hack the planet!"></p>
-
-<p>对，我不喜欢电脑。</p>
-
-<p>你一定觉得我很虚伪：</p>
-
-<ul>
-<li>每天大半的时间都和电脑在一起；</li>
-<li><a href="http://luckyyang.github.io/blog/categories/100jian-rang-wo-kai-xin-de-shi/">开心的事情</a>也通过电脑发出来；</li>
-<li><a href="https://github.com/happypeter/onestep/issues?page=1&amp;state=open">日常工作</a>和生活中，电脑都是贴心助手；</li>
-</ul>
-
-
-<!-- more -->
-
-
-<p>这我都承认。是啊，电脑对我这么重要。但我还是不喜欢。</p>
-
-<p>我可以随便说出几个我不喜欢电脑的理由：</p>
-
-<ul>
-<li>经常使用电脑，眼睛不舒服，视力已经不如以前了；</li>
-<li>让我的后背经常不舒服；</li>
-<li>和电脑相处时间长，和人相处的时间就相对少了；</li>
-</ul>
-
-
-<p>你说这些都是什么理由啊，明明都是自己的原因！是啊，我也不得不承认。</p>
-
-<p>说白了，我不喜欢电脑，不是说我想离电脑越远越好，我不喜欢的只是这种机械的硬帮帮的东西，它不是真实的，屏幕上显示的东西实际上是由一系列像素点组合成的，像我现在每敲一个字，cpu就在计算，然后调度，在屏幕上画点，画很多很多的点，最后就形成了不同的图像。</p>
-
-<p>而我离不开电脑，是因为她带给我很多快乐的东西。让我充实和快乐的事情都是通过电脑完成的：</p>
-
-<ul>
-<li>读书。有了电脑，就不用抱着纸质的书看了，搜索也很方便。每天拿出1-2个小时看看书，真是一件很奢侈的事啊。</li>
-<li>吸收各种信息。网络上的信息真是太丰富了，只要你去发现，总会发现你的菜。</li>
-<li>写代码。不用说，创造性的劳动总是会给人带来很大的成就感。而写出来的作品就好像画家用画笔在画板上作画，音乐家用乐器演奏一样，他们也不一定喜欢这些硬帮帮的东西，工具只是让你达到某个目的的东西，你怎样使用，就赋予了它不同的意义，它也就具有了生命。</li>
-</ul>
-
-
-<p>我是基本上不会在电脑上打游戏的，如果有时间，我更喜欢去<a href="http://luckyyang.github.io/blog/2013/06/08/100-happy-things-number-1/">打会篮球</a>，或者<a href="http://luckyyang.github.io/blog/2013/06/09/100-happy-things-number-2/">去海边走走</a>。</p>
-
-<p>能带给人思想自由，让人充实和快乐的东西都是好的，包括电脑。但我还是不喜欢。（完）</p>
 ]]></content>
   </entry>
   
