@@ -17,7 +17,7 @@ categories:
 
 在命令行下用locale命令看一下，出现 Cannot set LC_CTYPE to default locale 的错误：
 
-{% codeblock 终端中运行locale命令可以看到错误信息 %}
+{% codeblock 终端中运行locale命令可以看到错误信息 lang:sh %}
 
 $ locale
 locale: Cannot set LC_CTYPE to default locale: No such file or directory
@@ -44,7 +44,7 @@ LC_ALL=
 
 两条命令：
 
-{% codeblock 重新生成zh_CN.UTF-8 的locale %}
+{% codeblock 重新生成zh_CN.UTF-8 的locale lang:sh %}
 
 $ sudo locale-gen zh_CN.UTF-8
 Generating locales...
@@ -53,7 +53,7 @@ Generation complete.
 
 {% endcodeblock %}
 
-{% codeblock 重新配置locale %}
+{% codeblock 重新配置locale lang:sh %}
 
 $ sudo dpkg-reconfigure locales
 Generating locales...
