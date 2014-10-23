@@ -126,7 +126,7 @@
 <p>在命令行下用locale命令看一下，出现 Cannot set LC_CTYPE to default locale 的错误：</p>
 
 <figure class='code'><figcaption><span>终端中运行locale命令可以看到错误信息 </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -144,55 +144,90 @@
 <span class='line-number'>16</span>
 <span class='line-number'>17</span>
 <span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ locale
-</span><span class='line'>locale: Cannot set LC_CTYPE to default locale: No such file or directory
-</span><span class='line'>locale: Cannot set LC_ALL to default locale: No such file or directory
-</span><span class='line'>LANG=en_US.UTF-8
-</span><span class='line'>LANGUAGE=en_US:
-</span><span class='line'>LC_CTYPE=zh_CN.UTF-8
-</span><span class='line'>LC_NUMERIC="en_US.UTF-8"
-</span><span class='line'>LC_TIME="en_US.UTF-8"
-</span><span class='line'>LC_COLLATE="en_US.UTF-8"
-</span><span class='line'>LC_MONETARY="en_US.UTF-8"
-</span><span class='line'>LC_MESSAGES="en_US.UTF-8"
-</span><span class='line'>LC_PAPER="en_US.UTF-8"
-</span><span class='line'>LC_NAME="en_US.UTF-8"
-</span><span class='line'>LC_ADDRESS="en_US.UTF-8"
-</span><span class='line'>LC_TELEPHONE="en_US.UTF-8"
-</span><span class='line'>LC_MEASUREMENT="en_US.UTF-8"
-</span><span class='line'>LC_IDENTIFICATION="en_US.UTF-8"
-</span><span class='line'>LC_ALL=</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>locale
+</span><span class='line'>locale: Cannot <span class="nb">set </span>LC_CTYPE to default locale: No such file or directory
+</span><span class='line'>locale: Cannot <span class="nb">set </span>LC_ALL to default locale: No such file or directory
+</span><span class='line'><span class="nv">LANG</span><span class="o">=</span>en_US.UTF-8
+</span><span class='line'><span class="nv">LANGUAGE</span><span class="o">=</span>en_US:
+</span><span class='line'><span class="nv">LC_CTYPE</span><span class="o">=</span>zh_CN.UTF-8
+</span><span class='line'><span class="nv">LC_NUMERIC</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_TIME</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_COLLATE</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_MONETARY</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_MESSAGES</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_PAPER</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_NAME</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_ADDRESS</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_TELEPHONE</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_MEASUREMENT</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_IDENTIFICATION</span><span class="o">=</span><span class="s2">&quot;en_US.UTF-8&quot;</span>
+</span><span class='line'><span class="nv">LC_ALL</span><span class="o">=</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
 <h3>解决方法：</h3>
 
 <p>两条命令：</p>
 
-<p>$ sudo locale-gen zh_CN.UTF-8
-Generating locales&hellip;
-zh_CN.UTF-8&hellip; done
-Generation complete.
-$ sudo dpkg-reconfigure locales
-Generating locales&hellip;
-en_AG.UTF-8&hellip; done
-en_AU.UTF-8&hellip; done
-en_BW.UTF-8&hellip; done
-en_CA.UTF-8&hellip; done
-en_DK.UTF-8&hellip; done
-en_GB.UTF-8&hellip; done
-en_HK.UTF-8&hellip; done
-en_IE.UTF-8&hellip; done
-en_IN.UTF-8&hellip; done
-en_NG.UTF-8&hellip; done
-en_NZ.UTF-8&hellip; done
-en_PH.UTF-8&hellip; done
-en_SG.UTF-8&hellip; done
-en_US.UTF-8&hellip; done
-en_ZA.UTF-8&hellip; done
-en_ZM.UTF-8&hellip; done
-en_ZW.UTF-8&hellip; done
-zh_CN.UTF-8&hellip; up-to-date
-Generation complete.</p>
+<figure class='code'><figcaption><span>重新生成zh_CN.UTF-8 的locale </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>sudo locale-gen zh_CN.UTF-8
+</span><span class='line'>Generating locales...
+</span><span class='line'>zh_CN.UTF-8... <span class="k">done</span>
+</span><span class='line'>Generation complete.
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>重新配置locale </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>sudo dpkg-reconfigure locales
+</span><span class='line'>Generating locales...
+</span><span class='line'>en_AG.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_AU.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_BW.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_CA.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_DK.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_GB.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_HK.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_IE.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_IN.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_NG.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_NZ.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_PH.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_SG.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_US.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_ZA.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_ZM.UTF-8... <span class="k">done</span>
+</span><span class='line'>en_ZW.UTF-8... <span class="k">done</span>
+</span><span class='line'>zh_CN.UTF-8... up-to-date
+</span><span class='line'>Generation complete.
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h3>最终效果：</h3>
 
