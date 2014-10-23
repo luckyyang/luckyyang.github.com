@@ -4,7 +4,7 @@
   <title><![CDATA[编程向左，人生向右]]></title>
   <link href="http://luckyyang.github.com/atom.xml" rel="self"/>
   <link href="http://luckyyang.github.com/"/>
-  <updated>2014-04-06T20:52:54+08:00</updated>
+  <updated>2014-10-23T10:27:48+08:00</updated>
   <id>http://luckyyang.github.com/</id>
   <author>
     <name><![CDATA[Jiyang Liu]]></name>
@@ -12,6 +12,99 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用ssh登录server后终端下显示中文乱码]]></title>
+    <link href="http://luckyyang.github.com/blog/2014/10/23/ssh-server-with-chinese-locale-issues/"/>
+    <updated>2014-10-23T10:02:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2014/10/23/ssh-server-with-chinese-locale-issues</id>
+    <content type="html"><![CDATA[<h3>问题：</h3>
+
+<p>使用ssh登录server后，终端下显示中文乱码。
+本地系统：ubuntu
+<img src="http://luckyyang.github.com/images/locale_problem.png" alt="locale problem"></p>
+
+<!-- more -->
+
+
+<h3>查看</h3>
+
+<p>在命令行下用locale命令看一下，出现 Cannot set LC_CTYPE to default locale 的错误：</p>
+
+<figure class='code'><figcaption><span>终端中运行locale命令可以看到错误信息 </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ locale
+</span><span class='line'>locale: Cannot set LC_CTYPE to default locale: No such file or directory
+</span><span class='line'>locale: Cannot set LC_ALL to default locale: No such file or directory
+</span><span class='line'>LANG=en_US.UTF-8
+</span><span class='line'>LANGUAGE=en_US:
+</span><span class='line'>LC_CTYPE=zh_CN.UTF-8
+</span><span class='line'>LC_NUMERIC="en_US.UTF-8"
+</span><span class='line'>LC_TIME="en_US.UTF-8"
+</span><span class='line'>LC_COLLATE="en_US.UTF-8"
+</span><span class='line'>LC_MONETARY="en_US.UTF-8"
+</span><span class='line'>LC_MESSAGES="en_US.UTF-8"
+</span><span class='line'>LC_PAPER="en_US.UTF-8"
+</span><span class='line'>LC_NAME="en_US.UTF-8"
+</span><span class='line'>LC_ADDRESS="en_US.UTF-8"
+</span><span class='line'>LC_TELEPHONE="en_US.UTF-8"
+</span><span class='line'>LC_MEASUREMENT="en_US.UTF-8"
+</span><span class='line'>LC_IDENTIFICATION="en_US.UTF-8"
+</span><span class='line'>LC_ALL=</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>解决方法：</h3>
+
+<p>两条命令：</p>
+
+<p>$ sudo locale-gen zh_CN.UTF-8
+Generating locales&hellip;
+zh_CN.UTF-8&hellip; done
+Generation complete.
+$ sudo dpkg-reconfigure locales
+Generating locales&hellip;
+en_AG.UTF-8&hellip; done
+en_AU.UTF-8&hellip; done
+en_BW.UTF-8&hellip; done
+en_CA.UTF-8&hellip; done
+en_DK.UTF-8&hellip; done
+en_GB.UTF-8&hellip; done
+en_HK.UTF-8&hellip; done
+en_IE.UTF-8&hellip; done
+en_IN.UTF-8&hellip; done
+en_NG.UTF-8&hellip; done
+en_NZ.UTF-8&hellip; done
+en_PH.UTF-8&hellip; done
+en_SG.UTF-8&hellip; done
+en_US.UTF-8&hellip; done
+en_ZA.UTF-8&hellip; done
+en_ZM.UTF-8&hellip; done
+en_ZW.UTF-8&hellip; done
+zh_CN.UTF-8&hellip; up-to-date
+Generation complete.</p>
+
+<h3>最终效果：</h3>
+
+<p><img src="http://luckyyang.github.com/images/locale_solved.png" alt="locale solved"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[纠结的说教]]></title>
@@ -1117,23 +1210,6 @@ Paul Graham 写过一篇文章叫 “黑客与画家”（<a href="http://paulgr
 <p>来自peter的一个观点是：有时候你根本不需要去回报那个帮助你的人，因为能帮助你的人很多都是比你强大很多的人，他们是不需要你帮助的，你应该去帮助那些比你要弱小的人。</p>
 
 <p>懂得感恩，微笑，善哉。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[100件让我开心的事 #8]]></title>
-    <link href="http://luckyyang.github.com/blog/2013/08/03/100-happy-things-number-8/"/>
-    <updated>2013-08-03T08:37:00+08:00</updated>
-    <id>http://luckyyang.github.com/blog/2013/08/03/100-happy-things-number-8</id>
-    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/happy_8.jpg" title="街舞" alt="街舞"></p>
-
-<p>图片来自<a href="http://www.flickr.com/photos/realsaw/5048804578/sizes/o/in/photostream/">flickr</a>。</p>
-
-<p>学习了20多天的街舞，每天3个小时，每次都是满身的汗。感觉这种身体的舞动的确是一种很好的体验，身体随着音乐而动,心脏和节奏一起跳动，不只是带来了身体上的释放，也是一种心灵的体操。</p>
-
-<p>体力也提高了不少，那么多汗不是白流的。</p>
-
-<p>接触不同的人也会给我带来新的视角，那些性格特点鲜明的人也总是给我一些启发，帮助我发现我自己没注意到或者不那么明显的一些特质。只要你足够细心，生活总是会给你惊喜，不是么？</p>
 ]]></content>
   </entry>
   

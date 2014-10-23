@@ -5,13 +5,20 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Tutsplus Design School Learning Notes(3) - Color Schemes - 编程向左，人生向右</title>
+  <title>使用ssh登录server后终端下显示中文乱码 - 编程向左，人生向右</title>
   <meta name="author" content="Jiyang Liu">
 
   
-  <meta name="description" content="Notes from Tutsplus&rsquo;s courses Some glossary: Hue: Color itself, like red, yellow, blue
-Tint: Add white to the hue, make lighter
-Shade: Add &hellip;">
+  <meta name="description" content="问题： 使用ssh登录server后，终端下显示中文乱码。
+本地系统：ubuntu 查看 在命令行下用locale命令看一下，出现 Cannot set LC_CTYPE to default locale 的错误： 终端中运行locale命令可以看到错误信息 1
+2
+3
+4
+5
+6
+7
+8
+9 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +27,7 @@ Shade: Add &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-3/">
+  <link rel="canonical" href="http://luckyyang.github.com/blog/2014/10/23/ssh-server-with-chinese-locale-issues/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -82,7 +89,7 @@ Shade: Add &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Tutsplus Design School Learning Notes(3) - Color Schemes</h1>
+      <h1 class="entry-title">使用ssh登录server后终端下显示中文乱码</h1>
     
     
       <p class="meta">
@@ -98,57 +105,98 @@ Shade: Add &hellip;">
   
 
 
-<time datetime="2014-03-25T20:31:00+08:00" pubdate data-updated="true">Mar 25<span>th</span>, 2014</time>
+<time datetime="2014-10-23T10:02:00+08:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Notes from <a href="http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793">Tutsplus&rsquo;s courses</a></p>
+<div class="entry-content"><h3>问题：</h3>
 
-<p>Some glossary:</p>
-
-<ul>
-<li>Hue: Color itself, like red, yellow, blue</li>
-<li>Tint: Add white to the hue, make lighter</li>
-<li>Shade: Add black to the hue, make darker</li>
-<li>Tone: Add grey to the hue</li>
-</ul>
-
-
-<h2>Monochromatic</h2>
-
-<p>Use one hue and various tints and shades of that original color.
-<img src="/images/color_wheel/colour-wheel-monochromatic.jpg  " ></p>
+<p>使用ssh登录server后，终端下显示中文乱码。
+本地系统：ubuntu
+<img src="/images/locale_problem.png" alt="locale problem"></p>
 
 <!-- more -->
 
 
-<h2>Analogous</h2>
+<h3>查看</h3>
 
-<p>Created by choosing hues that are next to each other on the color wheel.
-<img src="/images/color_wheel/colour-wheel-analogous.jpg  " ></p>
+<p>在命令行下用locale命令看一下，出现 Cannot set LC_CTYPE to default locale 的错误：</p>
 
-<h2>Complementray</h2>
+<figure class='code'><figcaption><span>终端中运行locale命令可以看到错误信息 </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ locale
+</span><span class='line'>locale: Cannot set LC_CTYPE to default locale: No such file or directory
+</span><span class='line'>locale: Cannot set LC_ALL to default locale: No such file or directory
+</span><span class='line'>LANG=en_US.UTF-8
+</span><span class='line'>LANGUAGE=en_US:
+</span><span class='line'>LC_CTYPE=zh_CN.UTF-8
+</span><span class='line'>LC_NUMERIC="en_US.UTF-8"
+</span><span class='line'>LC_TIME="en_US.UTF-8"
+</span><span class='line'>LC_COLLATE="en_US.UTF-8"
+</span><span class='line'>LC_MONETARY="en_US.UTF-8"
+</span><span class='line'>LC_MESSAGES="en_US.UTF-8"
+</span><span class='line'>LC_PAPER="en_US.UTF-8"
+</span><span class='line'>LC_NAME="en_US.UTF-8"
+</span><span class='line'>LC_ADDRESS="en_US.UTF-8"
+</span><span class='line'>LC_TELEPHONE="en_US.UTF-8"
+</span><span class='line'>LC_MEASUREMENT="en_US.UTF-8"
+</span><span class='line'>LC_IDENTIFICATION="en_US.UTF-8"
+</span><span class='line'>LC_ALL=</span></code></pre></td></tr></table></div></figure>
 
-<p>Choosing two colors that opposite on the color wheel.
-<img src="/images/color_wheel/colour-wheel-complementary.jpg  " ></p>
 
-<h2>Split Complementary</h2>
+<h3>解决方法：</h3>
 
-<p>Created by taking one color then taking the two colors that are either side of what would be the first color&rsquo;s complementary.
-<img src="/images/color_wheel/colour-wheel-split-complementary.jpg  " ></p>
+<p>两条命令：</p>
 
-<h2>Triadic</h2>
+<p>$ sudo locale-gen zh_CN.UTF-8
+Generating locales&hellip;
+zh_CN.UTF-8&hellip; done
+Generation complete.
+$ sudo dpkg-reconfigure locales
+Generating locales&hellip;
+en_AG.UTF-8&hellip; done
+en_AU.UTF-8&hellip; done
+en_BW.UTF-8&hellip; done
+en_CA.UTF-8&hellip; done
+en_DK.UTF-8&hellip; done
+en_GB.UTF-8&hellip; done
+en_HK.UTF-8&hellip; done
+en_IE.UTF-8&hellip; done
+en_IN.UTF-8&hellip; done
+en_NG.UTF-8&hellip; done
+en_NZ.UTF-8&hellip; done
+en_PH.UTF-8&hellip; done
+en_SG.UTF-8&hellip; done
+en_US.UTF-8&hellip; done
+en_ZA.UTF-8&hellip; done
+en_ZM.UTF-8&hellip; done
+en_ZW.UTF-8&hellip; done
+zh_CN.UTF-8&hellip; up-to-date
+Generation complete.</p>
 
-<p>Use three color that are evenly spaced around the color wheel.
-<img src="/images/color_wheel/colour-wheel-triadic.jpg  " ></p>
+<h3>最终效果：</h3>
 
-<h2>Tetradic</h2>
-
-<p>Pairing two set of complementary color schemes.
-<img src="/images/color_wheel/colour-wheel-tetradic.jpg  " ></p>
+<p><img src="/images/locale_solved.png" alt="locale solved"></p>
 </div>
 
 
@@ -171,21 +219,15 @@ Shade: Add &hellip;">
   
 
 
-<time datetime="2014-03-25T20:31:00+08:00" pubdate data-updated="true">Mar 25<span>th</span>, 2014</time>
+<time datetime="2014-10-23T10:02:00+08:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2014</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/design/'>design,</a>, <a class='category' href='/blog/categories/learning/'>learning</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-3/" data-via="" data-counturl="http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-3/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://luckyyang.github.com/blog/2014/10/23/ssh-server-with-chinese-locale-issues/" data-via="" data-counturl="http://luckyyang.github.com/blog/2014/10/23/ssh-server-with-chinese-locale-issues/" >Tweet</a>
   
   
   
@@ -194,10 +236,8 @@ Shade: Add &hellip;">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/25/tutsplus-design-school-learning-notes-part-2/" title="Previous Post: Tutsplus Design School Learning Notes(2) - Colors 101">&laquo; Tutsplus Design School Learning Notes(2) - Colors 101</a>
+        <a class="basic-alignment left" href="/blog/2014/04/06/am-i-too-much-annoying/" title="Previous Post: 纠结的说教">&laquo; 纠结的说教</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/28/the-first-lesson-that-i-will-teach/" title="Next Post: 如果我给别人讲课的第一课我会讲什么">如果我给别人讲课的第一课我会讲什么 &raquo;</a>
       
     </p>
   </footer>
@@ -263,8 +303,8 @@ Shade: Add &hellip;">
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-3/';
-        var disqus_url = 'http://luckyyang.github.com/blog/2014/03/25/tutsplus-design-school-learning-notes-part-3/';
+        var disqus_identifier = 'http://luckyyang.github.com/blog/2014/10/23/ssh-server-with-chinese-locale-issues/';
+        var disqus_url = 'http://luckyyang.github.com/blog/2014/10/23/ssh-server-with-chinese-locale-issues/';
         var disqus_script = 'embed.js';
       
     (function () {
