@@ -4,7 +4,7 @@
   <title><![CDATA[编程向左，人生向右]]></title>
   <link href="http://luckyyang.github.com/atom.xml" rel="self"/>
   <link href="http://luckyyang.github.com/"/>
-  <updated>2014-10-23T11:10:34+08:00</updated>
+  <updated>2014-12-24T22:35:47+08:00</updated>
   <id>http://luckyyang.github.com/</id>
   <author>
     <name><![CDATA[Jiyang Liu]]></name>
@@ -12,6 +12,46 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[rails 程序中的布局]]></title>
+    <link href="http://luckyyang.github.com/blog/2014/12/24/rails-layout/"/>
+    <updated>2014-12-24T22:31:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2014/12/24/rails-layout</id>
+    <content type="html"><![CDATA[<p>rails中的layout是指每个页面中都会出现的部分。比如说页面顶部的导航条（header）和页脚（footer），每个页面中都会出现，所以把它们的代码放到layout中最合适。</p>
+
+<p>下面的笔记是读railsapps的<a href="http://railsapps.github.io/rails-default-application-layout.html">Rails Application Layout</a>教程记录下来的：</p>
+
+<ul>
+<li>HTML5 Boilerplate从2010年开始推荐前端的一些“最佳实践”</li>
+<li>可以用前端框架来配合rails使用：
+
+<ul>
+<li>Bootstrap</li>
+<li>Foundation</li>
+</ul>
+</li>
+<li><code>stylesheet_link_tag</code>和<code>javascript_include_tag</code>从<a href="http://guides.rubyonrails.org/asset_pipeline.html">Rails asset pipeline</a>中添加CSS stylesheets和Javascripts</li>
+<li><code>data-turbolinks-track</code>属性添加对Rails <a href="https://github.com/rails/turbolinks/blob/master/README.md">Turbolinks</a>的支持</li>
+<li><code>csrf_meta_tags</code>元素是一个view helper，用于用户在表单中输入数据的时候，防止<a href="https://en.wikipedia.org/wiki/Cross-site_request_forgery">跨站请求的伪造</a>（ cross-site request forgeries）</li>
+<li><code>yield</code>这个关键字用来插入rails中view的内容。参考RailsGuides  <a href="http://guides.rubyonrails.org/layouts_and_rendering.html#using-render">Layouts and Rendering in Rails</a>部分，解释了Rails如何将view和layout结合起来</li>
+<li><code>$ rails generate layout:install simple --force</code>生成一个layout，<code>--force</code>参数用来替换当前的<code>app/views/layouts/application.html.erb</code>文件</li>
+<li><code>viewport</code> metatag用来让页面在手机上显示的效果更好。设定一个viewport告诉浏览器如何让内容适应屏幕。apple的开发者文档中<a href="http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html">如何配置viewport</a>有详细的说明</li>
+<li>如果你想调用外部的javascript来执行，可以在body中添加类来区分开每个页面，让javascript在指定的页面中执行：<code>&lt;body class="&lt;%= controller_name %&gt; &lt;%= action_name %&gt;"&gt;</code>。具体可以参考railsapps上的<a href="http://railsapps.github.io/rails-javascript-include-external.html">给Rails添加JavaScript</a>这篇文章</li>
+<li>html5元素
+
+<ul>
+<li><code>&lt;header&gt; 用于branding或者导航</code></li>
+<li><code>&lt;main&gt;</code>中的内容对于一个页面来说是这个页面独有的，因此就不包括导航，网站logo，页脚等。W3C建议使用ARIA role=&ldquo;main&#8221;属性给main元素添加残疾人的支持。</li>
+</ul>
+</li>
+<li>flash message：rails提供的一套标准的惯例来显示警告（alert）和通知（notice），叫做flash message。这个名字来源于<code>flash memory</code>。具体可以参考<a href="http://guides.rubyonrails.org/action_controller_overview.html#the-flash">RailsGuides的文档</a></li>
+<li><code>content_tag</code> view helper:
+<code>&lt;%= content_tag :div, msg, :class =&gt; "flash_#{name}" %&gt;</code>(完)</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用ssh登录server后终端下显示中文乱码]]></title>
@@ -1190,56 +1230,6 @@ Paul Graham 写过一篇文章叫 “黑客与画家”（<a href="http://paulgr
 
 
 <p>如果你让注册这个“多余的”过程成为一个好的体验的话，那真是太棒了！</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[报恩和感恩]]></title>
-    <link href="http://luckyyang.github.com/blog/2013/08/03/gratitude-and-thanks/"/>
-    <updated>2013-08-03T09:05:00+08:00</updated>
-    <id>http://luckyyang.github.com/blog/2013/08/03/gratitude-and-thanks</id>
-    <content type="html"><![CDATA[<p><img src="http://luckyyang.github.com/images/gratitude_and_thanks.jpg" title="报恩和感恩" alt="报恩和感恩"></p>
-
-<p>图片来自<a href="http://www.flickr.com/photos/39042861@N04/5963620161/in/photolist-a5Z7vg-8DL8t6-fi293d-aDVWhk-aoCqj7-av1hFZ-aB6tfo-9u2NGS-ca7Bnu-8MrDN6-aKcxZ2-8YC9Mf-8BMFTG-9xabrP-aQRmXx-acViqJ-8fmnap-bd63z4-9wbQrA-9iicEr-7SVSGZ-dV7P5g-cmGhmS-8UqzQX-cMnwjd-95MpNc-9x8Yoc-bnUhYL-8kceYF-898ynb-8MewoS-8CaFv7-dVxEaC-aFbV56-7HNXHh-85z5MK">flickr</a></p>
-
-<p>最近看<a href="http://v.ifeng.com/news/society/201308/01057688-7ba4-4859-b256-8f0d2edd63ae.shtml">锵锵三人行</a>，他们谈到一个报恩的问题，防止转述有误，我还是贴过来吧：</p>
-
-<!-- more -->
-
-
-<blockquote><p>窦文涛：因为我们在生活里最近老是碰到这种矛盾，就是说有一个很简单地模型，你在某一个单位里，那么我培养你，好比孙杨，没有我，你连走上这条道路都不可能，说的是啊，但是这种恩情，这种恩情你肝脑涂地，照中国人来说，受人滴水之恩，当做涌泉相报，没有这个老板看中你，你到死也还不清。但是问题在于，现在市场又有另一套机制。</p>
-
-<p>梁文道：我举个例，在香港的情况，比如在香港我以前做电台的时候我们签一些年轻人做DJ，你看香港的无线电视台他签一个合约艺员，这个薪水都很低的，坦白讲，就当年我们签新人的时候我们就给他讲，我们薪水不高，但是我们会怎么样跟他说呢？我们给你个机会培养你，训练你，然后你慢慢做，你做好了之后，我们这个公司呢，电台也好，电视台也好，他是个什么？我们说它叫做一个平台，平台是一个让你有曝光的机会，而且是持续曝光的机会，建立形象的机会，当你利用好这个平台之后，你能挣多少钱那就是你的事，我们这个地方是给一个基本保障，你不要以为进来电视台当演员就赚大钱了。</p>
-
-<p>窦文涛：这回训练过孙杨的澳洲的一个教练有些话像是给朱志根说的，那感觉有点惺惺相惜，我觉得其实就是一种什么心理？就是说，孩子大了，早晚有一天会离开你，或者说翅膀硬了，就飞了，你看过去的中国老单位里，就是谴责有些人，他们认为是白眼狼，我们把你培养这么大，你现在翅膀硬了，你就要单飞了吗？可是你仔细想像，这种谴责真的是很有道理，他翅膀硬了当然就要飞了，这里边就关联到一个就是说我这个体制把你培养出来，但是也许有一天你要像李娜一样，甚至你最后发展，其实最后像外国真正的发展，就是一个明星他就是一个团队，一个团队去经营他，去伺候他，去服务于他，他才能发挥他最大的价值，可是那个时候这里边有一个难舍难分你就翅膀硬了，我们这儿就培养出这么一人，我们就白培养了吗？</p>
-
-<p>许子东：就关键所有的疑惑还是情理不分，在我看来，在礼上是不见的，你当初培养我也是为了你的利益，因为你觉得我最能出成绩，你明白，也不是说为了我个人，如果说你是为了照顾我个人，那你当初培养就错了。</p>
-
-<p>许子东：你认为我最能拿冠军，我最能拿金牌，你才培养这个运动员，所以从道理上不欠的，欠的是情，是恩情，就是说你师傅，你这个姓孙的教练跟刘翔的这种关系，我觉得情理分开就好办了，理的事情无法阻挡，现在整个中国的大学系统，北大清华都在为美国的大学廉价创造条件培养，最出色的都去留学了，有的系80%的人出来都去留学了，我们严格说都是在帮他培养，但是你没办法，你只能长远的看，只要是中国人，他在世界上哪里学到好的东西都会对中国有利。</p></blockquote>
-
-<p>抱歉贴了一堆过来。我原来也一直有这种困惑，就是别人给我的帮助，我到底要怎么报恩呢。</p>
-
-<p>比如说，教过我的老师，我都基本不联系了，我以前就一直有这种困惑，这样不好吧，毕竟老师教过你，你都不去联系下，感谢下。但是现在想想，这纯粹是个人意愿的问题，就是自己想不想去做。一方面，理的方面，老师教你是他的职责，如果他不好好教的话，那他就没尽到自己基本的职责，所以这一点上不用困惑报恩的问题；另一方面，情的方面，这当然要看你和这个老师的私人关系，如果你们关系不错，那说明那个老师在情方面对你也比较好，所以以后你们也可能有这种持续维持彼此关系的意愿，这时候你们的关系更像朋友的关系，而朋友有什么困难，帮助一下也是自己乐意的，所以这种情况对于报恩也不会有什么压力。但令人困惑的往往是你们之间没有这种持续维持彼此关系的意愿，所以对于传统的这种“滴水之恩，涌泉相报”的道德观才会有困惑。</p>
-
-<p>抛开理的方面不说，从情的方面，我现在能做到什么程度呢，别人对我的好我会记着，我懂得感恩，但是是否报恩我真的无法确定。而对于帮助别人，我会尽量去做，而对于回报，我也不求回报。因为要求回报或者内心有很强的要求回报的意愿，我觉得最后很容易变成道德绑架，最后说的话，句型基本是这样的：</p>
-
-<p>我为你付出了这么多：</p>
-
-<ul>
-<li>你怎么不理解呢？</li>
-<li>你怎么不听呢？</li>
-<li>就得到你这样的回应？</li>
-<li>。。。。。。</li>
-</ul>
-
-
-<p>我在某件事上的付出，是因为我愿意做这件事，我在做这件事的过程中也是快乐的，所以得不到回报也丝毫不会影响我，而得到回报哪怕是一句赞美也会让我更快乐。</p>
-
-<p>从我上面的道德观，你可能会想，那只付出，我不是成了人民的公仆了么？其实不会，我刚说是从情的方面去说，理的方面当然还是要回报了，比如我给别人工作当然要给我酬劳啊。那你可能又会想，那情侣之间呢，你也只付出甚至都不要求有情感的回报么？这里，首先去要求就是不对的，然后爱情的回报我理解为两个人之间感情的互动，你付出或者为对方做了什么事后，会看对方的反应，给你的反馈；我想如果你是真心付出，那对方给你的反馈也不会虚情假意，所以也是不需要要求的。</p>
-
-<p>来自peter的一个观点是：有时候你根本不需要去回报那个帮助你的人，因为能帮助你的人很多都是比你强大很多的人，他们是不需要你帮助的，你应该去帮助那些比你要弱小的人。</p>
-
-<p>懂得感恩，微笑，善哉。</p>
 ]]></content>
   </entry>
   

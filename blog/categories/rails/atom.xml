@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rails | 编程向左，人生向右]]></title>
+  <link href="http://luckyyang.github.com/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://luckyyang.github.com/"/>
+  <updated>2014-12-24T22:35:47+08:00</updated>
+  <id>http://luckyyang.github.com/</id>
+  <author>
+    <name><![CDATA[Jiyang Liu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[rails 程序中的布局]]></title>
+    <link href="http://luckyyang.github.com/blog/2014/12/24/rails-layout/"/>
+    <updated>2014-12-24T22:31:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2014/12/24/rails-layout</id>
+    <content type="html"><![CDATA[<p>rails中的layout是指每个页面中都会出现的部分。比如说页面顶部的导航条（header）和页脚（footer），每个页面中都会出现，所以把它们的代码放到layout中最合适。</p>
+
+<p>下面的笔记是读railsapps的<a href="http://railsapps.github.io/rails-default-application-layout.html">Rails Application Layout</a>教程记录下来的：</p>
+
+<ul>
+<li>HTML5 Boilerplate从2010年开始推荐前端的一些“最佳实践”</li>
+<li>可以用前端框架来配合rails使用：
+
+<ul>
+<li>Bootstrap</li>
+<li>Foundation</li>
+</ul>
+</li>
+<li><code>stylesheet_link_tag</code>和<code>javascript_include_tag</code>从<a href="http://guides.rubyonrails.org/asset_pipeline.html">Rails asset pipeline</a>中添加CSS stylesheets和Javascripts</li>
+<li><code>data-turbolinks-track</code>属性添加对Rails <a href="https://github.com/rails/turbolinks/blob/master/README.md">Turbolinks</a>的支持</li>
+<li><code>csrf_meta_tags</code>元素是一个view helper，用于用户在表单中输入数据的时候，防止<a href="https://en.wikipedia.org/wiki/Cross-site_request_forgery">跨站请求的伪造</a>（ cross-site request forgeries）</li>
+<li><code>yield</code>这个关键字用来插入rails中view的内容。参考RailsGuides  <a href="http://guides.rubyonrails.org/layouts_and_rendering.html#using-render">Layouts and Rendering in Rails</a>部分，解释了Rails如何将view和layout结合起来</li>
+<li><code>$ rails generate layout:install simple --force</code>生成一个layout，<code>--force</code>参数用来替换当前的<code>app/views/layouts/application.html.erb</code>文件</li>
+<li><code>viewport</code> metatag用来让页面在手机上显示的效果更好。设定一个viewport告诉浏览器如何让内容适应屏幕。apple的开发者文档中<a href="http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html">如何配置viewport</a>有详细的说明</li>
+<li>如果你想调用外部的javascript来执行，可以在body中添加类来区分开每个页面，让javascript在指定的页面中执行：<code>&lt;body class="&lt;%= controller_name %&gt; &lt;%= action_name %&gt;"&gt;</code>。具体可以参考railsapps上的<a href="http://railsapps.github.io/rails-javascript-include-external.html">给Rails添加JavaScript</a>这篇文章</li>
+<li>html5元素
+
+<ul>
+<li><code>&lt;header&gt; 用于branding或者导航</code></li>
+<li><code>&lt;main&gt;</code>中的内容对于一个页面来说是这个页面独有的，因此就不包括导航，网站logo，页脚等。W3C建议使用ARIA role=&ldquo;main"属性给main元素添加残疾人的支持。</li>
+</ul>
+</li>
+<li>flash message：rails提供的一套标准的惯例来显示警告（alert）和通知（notice），叫做flash message。这个名字来源于<code>flash memory</code>。具体可以参考<a href="http://guides.rubyonrails.org/action_controller_overview.html#the-flash">RailsGuides的文档</a></li>
+<li><code>content_tag</code> view helper:
+<code>&lt;%= content_tag :div, msg, :class =&gt; "flash_#{name}" %&gt;</code>(完)</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
