@@ -9,7 +9,10 @@
   <meta name="author" content="Jiyang Liu">
 
   
-  <meta name="description" content="rails中的layout是指每个页面中都会出现的部分。比如说页面顶部的导航条（header）和页脚（footer），每个页面中都会出现，所以把它们的代码放到layout中最合适。 下面的笔记是读railsapps的Rails Application Layout教程记录下来的： HTML5 &hellip;">
+  <meta name="description" content="现象： 网站无法打开
+可以ping通 调试过程： ssh登录网站
+sudo service apache2 restart 返回信息： * Restarting web server apache2
+(98)Address already in use: make_sock: could not &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +80,76 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/01/apache-not-work/">Apache服务无法重启</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-01T23:41:00+08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>现象：</p>
+
+<ul>
+<li>网站无法打开</li>
+<li>可以ping通</li>
+</ul>
+
+
+<p>调试过程：</p>
+
+<ul>
+<li>ssh登录网站</li>
+<li><code>sudo service apache2 restart</code>  返回信息：</li>
+</ul>
+
+
+<blockquote><p>* Restarting web server apache2
+(98)Address already in use: make_sock: could not bind to address 0.0.0.0:80
+no listening sockets available, shutting down
+Unable to open logs
+Action &lsquo;start&rsquo; failed.
+The Apache error log may have more information.
+[fail]</p></blockquote>
+
+<p><code>$ sudo netstat -ltnp | grep ':80'</code></p>
+
+<blockquote><p>tcp        0      0 127.0.0.1:8005          0.0.0.0:<em>               LISTEN      1534/java
+tcp        0      0 0.0.0.0:80              0.0.0.0:</em>               LISTEN      20658/apache2
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      1534/java</p></blockquote>
+
+<p><code>$ sudo kill -9 20658</code></p>
+
+<p><code>$ sudo service apache2 restart</code></p>
+
+<p>Done.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -550,49 +623,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/25/tutsplus-design-school-learning-notes-part-1/">Tutsplus Design School Learning Notes(1)</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-25T11:07:00+08:00" pubdate data-updated="true">Mar 25<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Notes from <a href="http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793">Tutsplus&rsquo;s courses</a></p>
-
-<p><img src="/images/design_school_1.png" title="Tutsplus Design School Learning Notes" alt="Tutsplus Design School Learning Notes" ></p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/03/25/tutsplus-design-school-learning-notes-part-1/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -606,6 +636,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/01/apache-not-work/">Apache服务无法重启</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/12/24/rails-layout/">rails 程序中的布局</a>
@@ -623,10 +657,6 @@
         <a href="/blog/2014/04/06/why-i-write-blog/">我为什么要写文章</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2014/04/06/if-i-do-all-my-good-to-the-one-i-like/">是否要无条件的对别人好</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -640,7 +670,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Jiyang Liu -
+  Copyright &copy; 2015 - Jiyang Liu -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

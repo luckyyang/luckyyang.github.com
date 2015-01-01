@@ -5,11 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: 创业 - 编程向左，人生向右</title>
+  <title>Apache服务无法重启 - 编程向左，人生向右</title>
   <meta name="author" content="Jiyang Liu">
 
   
-  <meta name="description" content="Category: 创业">
+  <meta name="description" content="现象： 网站无法打开
+可以ping通 调试过程： ssh登录网站
+sudo service apache2 restart 返回信息： * Restarting web server apache2
+(98)Address already in use: make_sock: could not &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://luckyyang.github.comblog/categories/chuang-ye/">
+  <link rel="canonical" href="http://luckyyang.github.com/blog/2015/01/01/apache-not-work/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -76,53 +79,125 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: 创业</h1>
+    
+      <h1 class="entry-title">Apache服务无法重启</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-01T23:41:00+08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2015</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>现象：</p>
 
-  
-  <h2>2013</h2>
-
-<article>
-  
-<h1><a href="/blog/2013/10/19/happy-first/">有诚意的争吵</a></h1>
-<time datetime="2013-10-19T21:53:00+08:00" pubdate><span class='month'>Oct</span> <span class='day'>19</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/chuang-ye/'>创业</a></span>
-</footer>
+<ul>
+<li>网站无法打开</li>
+<li>可以ping通</li>
+</ul>
 
 
-</article>
+<p>调试过程：</p>
+
+<ul>
+<li>ssh登录网站</li>
+<li><code>sudo service apache2 restart</code>  返回信息：</li>
+</ul>
 
 
+<blockquote><p>* Restarting web server apache2
+(98)Address already in use: make_sock: could not bind to address 0.0.0.0:80
+no listening sockets available, shutting down
+Unable to open logs
+Action &lsquo;start&rsquo; failed.
+The Apache error log may have more information.
+[fail]</p></blockquote>
 
-  
-  <h2>2012</h2>
+<p><code>$ sudo netstat -ltnp | grep ':80'</code></p>
 
-<article>
-  
-<h1><a href="/blog/2012/12/03/wo-men-yao-cheng-wei-yi-ge-shi-yao-yang-de-gong-si/">我们要成为一个什么样的公司</a></h1>
-<time datetime="2012-12-03T21:02:00+08:00" pubdate><span class='month'>Dec</span> <span class='day'>03</span> <span class='year'>2012</span></time>
+<blockquote><p>tcp        0      0 127.0.0.1:8005          0.0.0.0:<em>               LISTEN      1534/java
+tcp        0      0 0.0.0.0:80              0.0.0.0:</em>               LISTEN      20658/apache2
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      1534/java</p></blockquote>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/chuang-ye/'>创业</a></span>
-</footer>
+<p><code>$ sudo kill -9 20658</code></p>
 
+<p><code>$ sudo service apache2 restart</code></p>
 
-</article>
-
+<p>Done.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Jiyang Liu</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-01T23:41:00+08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2015</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/kai-fa/'>开发</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://luckyyang.github.com/blog/2015/01/01/apache-not-work/" data-via="" data-counturl="http://luckyyang.github.com/blog/2015/01/01/apache-not-work/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/12/24/rails-layout/" title="Previous Post: rails 程序中的布局">&laquo; rails 程序中的布局</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -177,7 +252,10 @@
       var disqus_shortname = 'luckyyang';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://luckyyang.github.com/blog/2015/01/01/apache-not-work/';
+        var disqus_url = 'http://luckyyang.github.com/blog/2015/01/01/apache-not-work/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

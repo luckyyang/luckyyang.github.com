@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 开发 | 编程向左，人生向右]]></title>
+  <link href="http://luckyyang.github.com/blog/categories/kai-fa/atom.xml" rel="self"/>
+  <link href="http://luckyyang.github.com/"/>
+  <updated>2015-01-01T23:52:01+08:00</updated>
+  <id>http://luckyyang.github.com/</id>
+  <author>
+    <name><![CDATA[Jiyang Liu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Apache服务无法重启]]></title>
+    <link href="http://luckyyang.github.com/blog/2015/01/01/apache-not-work/"/>
+    <updated>2015-01-01T23:41:00+08:00</updated>
+    <id>http://luckyyang.github.com/blog/2015/01/01/apache-not-work</id>
+    <content type="html"><![CDATA[<p>现象：</p>
+
+<ul>
+<li>网站无法打开</li>
+<li>可以ping通</li>
+</ul>
+
+
+<p>调试过程：</p>
+
+<ul>
+<li>ssh登录网站</li>
+<li><code>sudo service apache2 restart</code>  返回信息：</li>
+</ul>
+
+
+<blockquote><p>* Restarting web server apache2
+(98)Address already in use: make_sock: could not bind to address 0.0.0.0:80
+no listening sockets available, shutting down
+Unable to open logs
+Action &lsquo;start&rsquo; failed.
+The Apache error log may have more information.
+[fail]</p></blockquote>
+
+<p><code>$ sudo netstat -ltnp | grep ':80'</code></p>
+
+<p>```shell
+tcp        0      0 127.0.0.1:8005          0.0.0.0:*               LISTEN      1534/java</p>
+
+<p>tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      20658/apache2</p>
+
+<p>tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      1534/java
+```</p>
+
+<p><code>$ sudo kill -9 20658</code></p>
+
+<p><code>$ sudo service apache2 restart</code></p>
+
+<p>Done.</p>
+]]></content>
+  </entry>
+  
+</feed>
