@@ -4,7 +4,7 @@
   <title><![CDATA[编程向左，人生向右]]></title>
   <link href="http://luckyyang.github.com/atom.xml" rel="self"/>
   <link href="http://luckyyang.github.com/"/>
-  <updated>2015-01-01T23:49:54+08:00</updated>
+  <updated>2015-01-01T23:54:53+08:00</updated>
   <id>http://luckyyang.github.com/</id>
   <author>
     <name><![CDATA[Jiyang Liu]]></name>
@@ -34,19 +34,27 @@
 </ul>
 
 
-<blockquote><p>* Restarting web server apache2
-(98)Address already in use: make_sock: could not bind to address 0.0.0.0:80
-no listening sockets available, shutting down
-Unable to open logs
-Action &lsquo;start&rsquo; failed.
-The Apache error log may have more information.
-[fail]</p></blockquote>
+<blockquote><p>* Restarting web server apache2</p>
+
+<p>(98)Address already in use: make_sock: could not bind to address 0.0.0.0:80</p>
+
+<p>no listening sockets available, shutting down</p>
+
+<p>Unable to open logs</p>
+
+<p>Action &lsquo;start&rsquo; failed.</p>
+
+<p>The Apache error log may have more information.</p>
+
+<p>[fail]</p></blockquote>
 
 <p><code>$ sudo netstat -ltnp | grep ':80'</code></p>
 
-<blockquote><p>tcp        0      0 127.0.0.1:8005          0.0.0.0:<em>               LISTEN      1534/java
-tcp        0      0 0.0.0.0:80              0.0.0.0:</em>               LISTEN      20658/apache2
-tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      1534/java</p></blockquote>
+<blockquote><p>tcp        0      0 127.0.0.1:8005          0.0.0.0:*               LISTEN      1534/java</p>
+
+<p>tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      20658/apache2</p>
+
+<p>tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      1534/java</p></blockquote>
 
 <p><code>$ sudo kill -9 20658</code></p>
 
